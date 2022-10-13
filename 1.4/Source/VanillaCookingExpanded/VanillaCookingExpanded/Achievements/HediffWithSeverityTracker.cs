@@ -6,7 +6,7 @@ using Verse;
 
 namespace AchievementsExpanded
 {
-  /*  public class HediffWithSeverityTracker:HediffTracker 
+    public class HediffWithSeverityTracker:HediffTracker 
     {
         
         public HediffWithSeverityTracker()
@@ -43,6 +43,6 @@ namespace AchievementsExpanded
       
         public float severity;
 
-        private int triggeredCount;
-    }*/
+        private new int triggeredCount;
+    }
 }

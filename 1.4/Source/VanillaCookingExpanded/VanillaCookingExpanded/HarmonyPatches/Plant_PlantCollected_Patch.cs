@@ -12,7 +12,7 @@ namespace AchievementsExpanded
     public class Plant_PlantCollected_Patch
     {
 
-       /* public static void CheckPlantHarvested(Plant __instance)
+        public static void CheckPlantHarvested(Plant __instance)
         {
             if (__instance is Plant plant && Current.ProgramState == ProgramState.Playing)
             {
@@ -24,6 +24,6 @@ namespace AchievementsExpanded
                     }
                 }
             }
-        }*/
+        }
     }
 }

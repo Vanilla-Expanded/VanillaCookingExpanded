@@ -8,7 +8,7 @@ using RimWorld;
 
 namespace AchievementsExpanded
 {
-   /* public class PlantTracker : Tracker<Plant>
+    public class PlantTracker : Tracker<Plant>
     {
         public override string Key => "PlantTracker";
 
@@ -68,5 +68,5 @@ namespace AchievementsExpanded
 
         protected HashSet<string> registeredPlants;
 
-    }*/
+    }
 }

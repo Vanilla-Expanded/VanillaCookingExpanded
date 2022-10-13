@@ -6,7 +6,7 @@ using RimWorld;
 
 namespace AchievementsExpanded
 {
-   /* public class ItemCraftTrackerWithIngredients : Tracker<Thing>
+    public class ItemCraftTrackerWithIngredients : Tracker<Thing>
     {
 
         public override string Key => "ItemCraftTrackerWithIngredients";
@@ -76,6 +76,6 @@ namespace AchievementsExpanded
         public int count;
 
         private int triggeredCount;
-    }*/
+    }
 }
 

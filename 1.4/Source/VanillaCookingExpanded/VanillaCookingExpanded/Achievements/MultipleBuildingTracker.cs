@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace AchievementsExpanded
 {
-    /*public class MultipleBuildingTracker:BuildingTracker 
+    public class MultipleBuildingTracker:BuildingTracker 
     {
         public MultipleBuildingTracker()
         {
@@ -53,7 +53,7 @@ namespace AchievementsExpanded
 
         List<ThingDef> buildingsList = new List<ThingDef>();
 
-        private int triggeredCount;
+        private new int triggeredCount;
         protected List<string> builtThings;
-    }*/
+    }
 }

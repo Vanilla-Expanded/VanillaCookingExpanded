@@ -12,7 +12,7 @@ namespace AchievementsExpanded
     public class QuestManager_Notify_ThingsProduced_Patch
     {
 
-      /*  public static void CheckItemCraftedIngredients(Pawn worker, List<Thing> things)
+        public static void CheckItemCraftedIngredients(Pawn worker, List<Thing> things)
         {
             if (things != null && worker != null)
             {
@@ -32,6 +32,6 @@ namespace AchievementsExpanded
                 }
             }
 
-        }*/
+        }
     }
 }

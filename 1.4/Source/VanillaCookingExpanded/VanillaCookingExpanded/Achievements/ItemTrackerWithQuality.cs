@@ -10,7 +10,7 @@ using RimWorld.Planet;
 
 namespace AchievementsExpanded
 {
-  /*  public class ItemTrackerWithQuality : ItemTracker
+    public class ItemTrackerWithQuality : ItemTracker
     {
        
 
@@ -100,5 +100,5 @@ namespace AchievementsExpanded
             return total >= count;
         }
 
-    }*/
+    }
 }
