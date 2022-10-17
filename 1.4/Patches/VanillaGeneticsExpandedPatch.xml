@@ -343,13 +343,7 @@
 									<baseMoodEffect>1</baseMoodEffect>
 								</li>
 							</stages>	
-							<modExtensions>
-								<li Class="VanillaCookingExpanded.Thought_Hediff_Extension">
-									<hediffToAffect>VCE_Cholesterol</hediffToAffect>
-									<partToAffect>Heart</partToAffect>
-									<percentage>0.03</percentage>
-								</li>
-							</modExtensions>
+							
 						</ThoughtDef>
 					</value>
 				</li>
