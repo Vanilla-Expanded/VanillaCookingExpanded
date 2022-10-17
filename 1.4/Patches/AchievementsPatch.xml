@@ -24,7 +24,7 @@
 
 
 
-						<AchievementsExpanded.AchievementDef>
+						<!--<AchievementsExpanded.AchievementDef>
 							<defName>VCE_AchievementBigBoned</defName>
 							<label>Big-Boned</label>
 							<description>Have a colonist get more than 80% cholesterol</description>
@@ -38,7 +38,7 @@
 
 							<texPath>Achievements/VCE_AchievementBigBoned</texPath>
 							<points>10</points>
-						</AchievementsExpanded.AchievementDef>
+						</AchievementsExpanded.AchievementDef>-->
 
 						<AchievementsExpanded.AchievementDef>
 							<defName>VCE_AchievementFiveStarRestaurant</defName>
@@ -158,21 +158,7 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>	
 
-						<AchievementsExpanded.AchievementDef>
-							<defName>VCE_AchievementAmysBaking</defName>
-							<label>Amy's Baking</label>
-							<description>Make a revolting Gourmet dessert using Mayo</description>
-							<bgtexPath>Achievements/VCE_AchievementBackground</bgtexPath>
-							<tab>VCE_Achievements</tab>
-							<tracker Class="AchievementsExpanded.ItemCraftTrackerWithIngredients">
-								<def>VCE_GourmetDessert</def>
-								<includeingredient>VCE_Mayo</includeingredient>
-								<count>1</count>
-							</tracker>
-
-							<texPath>Achievements/VCE_AchievementAmysBaking</texPath>
-							<points>15</points>
-						</AchievementsExpanded.AchievementDef>
+						
 
 						<AchievementsExpanded.AchievementDef>
 							<defName>VCE_AchievementRefrigerationFailure</defName>
@@ -347,7 +333,7 @@
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<!--<AchievementsExpanded.AchievementDef>
 							<defName>VCE_AchievementHealthyAsAnOx</defName>
 							<label>Healthy as an Ox</label>
 							<description>Have a pawn with cholesterol, diabetes and high blood pressure</description>
@@ -373,7 +359,7 @@
 
 							<texPath>Achievements/VCE_AchievementHealthyAsAnOx</texPath>
 							<points>15</points>
-						</AchievementsExpanded.AchievementDef>
+						</AchievementsExpanded.AchievementDef>-->
 
 
 					</value>

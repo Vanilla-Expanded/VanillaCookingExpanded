@@ -39,15 +39,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_DiabetesEffect</li>				
+									
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsAgave</li>
-					<li>VCE_DiabetesEffectDescHalfPoint</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -57,7 +57,7 @@
 	<ThingDef ParentName="RoughPlantBase">
 		<defName>VCE_RawSugar</defName>
 		<label>sugar</label>
-		<description>Simple crystalline cane sugar, adds a much desired sweetness. While sugar is good on the tongue, it is not so good on the kidneys and can quickly cause diabetes when eaten in mass. Sugar is easily converted into energy by the body, which may result in a nice burst of energy.</description>
+		<description>Simple crystalline cane sugar, adds a much desired sweetness. Sugar is easily converted into energy by the body, which may result in a nice burst of energy.</description>
 		<graphicData>
 			<texPath>Things/Items/Condiments/VCE_Sugar</texPath>
 		</graphicData>
@@ -90,15 +90,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+				
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_DiabetesEffect</li>				
+								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSugar</li>
-					<li>VCE_DiabetesEffectDescOneAndHalfPoint</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -141,15 +141,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_NoEffect</li>				
+							
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSpices</li>
-					<li>VCE_NoEffectDesc</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -159,7 +159,7 @@
 	<ThingDef ParentName="RoughPlantBase">
 		<defName>VCE_Salt</defName>
 		<label>salt</label>
-		<description>Rock salt, like common salt, enhances the flavor profile of other ingredients it is cooked with. Constant intake is prone to cause a rise in blood pressure.</description>
+		<description>Rock salt, like common salt, enhances the flavor profile of other ingredients it is cooked with.</description>
 		<graphicData>
 			<texPath>Things/Items/Condiments/VCE_Salt</texPath>
 
@@ -191,15 +191,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_HighBloodPressureEffect</li>				
+								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSalt</li>
-					<li>VCE_HighBloodPressureEffectDesc</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -244,15 +244,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+					
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_CholesterolEffect</li>				
+								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsMayo</li>
-					<li>VCE_CholesterolEffectDesc</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -292,15 +292,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_NoEffect</li>				
+								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsJelly</li>
-					<li>VCE_NoEffectDesc</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -345,15 +345,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_CholesterolEffect</li>				
+							
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsButter</li>
-					<li>VCE_CholesterolEffectDescOneAndHalfPoint</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -398,15 +398,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_DiabetesEffect</li>				
+								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSyrup</li>
-					<li>VCE_DiabetesEffectDescThreeQuarterPoint</li>
+					
 				</statDescriptions>
 				
 			</li>
@@ -461,15 +461,15 @@
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					<li>VCE_HealthEffects</li>			
+						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-					<li>VCE_NoEffect</li>				
+							
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsNanites</li>
-					<li>VCE_NoEffectDesc</li>
+					
 				</statDescriptions>
 				
 			</li>

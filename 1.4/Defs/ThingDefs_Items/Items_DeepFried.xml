@@ -47,24 +47,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="AnimalBehaviours.AnimalStatExtension">
-				
-				<statToAdd>
-					
-					<li>VCE_HealthEffects</li>			
-				</statToAdd>
-				<statValues>
-					
-					<li>VCE_CholesterolEffect</li>				
-				</statValues>
-				<statDescriptions>
-					
-					<li>VCE_CholesterolDescDeepFried</li>
-				</statDescriptions>
-				
-			</li>
-		</modExtensions>
+		
 	</ThingDef>
 
 	<ThingDef ParentName="MealBase">
@@ -108,24 +91,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="AnimalBehaviours.AnimalStatExtension">
-				
-				<statToAdd>
-					
-					<li>VCE_HealthEffects</li>			
-				</statToAdd>
-				<statValues>
-					
-					<li>VCE_CholesterolEffect</li>				
-				</statValues>
-				<statDescriptions>
-					
-					<li>VCE_CholesterolDescDeepFried</li>
-				</statDescriptions>
-				
-			</li>
-		</modExtensions>
+		
 	</ThingDef>
 
 	<ThingDef ParentName="MealBase">
@@ -170,24 +136,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="AnimalBehaviours.AnimalStatExtension">
-				
-				<statToAdd>
-					
-					<li>VCE_HealthEffects</li>			
-				</statToAdd>
-				<statValues>
-					
-					<li>VCE_CholesterolEffect</li>				
-				</statValues>
-				<statDescriptions>
-					
-					<li>VCE_CholesterolDescDeepFried</li>
-				</statDescriptions>
-				
-			</li>
-		</modExtensions>
+		
 	</ThingDef>
 
 
