@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>[1.0, 1.1] RimCuisine 2 Core</li>
+			<li>RimCuisine 2 Core (Continued)</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
@@ -101,7 +101,7 @@
 				<li Class="PatchOperationReplace"> 
 					<xpath>/Defs/ThingDef[defName="VCE_RawSugar"]/description</xpath>
 					<value>
-						<description>Brown sugar is a sucrose sugar product with a distinctive brown color due to the presence of sugarcane molasses, and it adds a much desired sweetness. While sugar is good on the tongue, it is not so good on the kidneys and can quickly cause diabetes when eaten in mass. Sugar is easily converted into energy by the body, which may result in a nice burst of energy.</description>		
+						<description>Brown sugar is a sucrose sugar product with a distinctive brown color due to the presence of sugarcane molasses, and it adds a much desired sweetness. Sugar is easily converted into energy by the body, which may result in a nice burst of energy.</description>		
 					</value>
 				</li>
 				

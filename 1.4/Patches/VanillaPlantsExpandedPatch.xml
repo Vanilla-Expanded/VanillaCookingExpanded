@@ -46,15 +46,15 @@
 								<li Class="AnimalBehaviours.AnimalStatExtension">
 									<statToAdd>
 										<li>VCE_CondimentEffects</li>
-										<li>VCE_HealthEffects</li>
+									
 									</statToAdd>
 									<statValues>
 										<li>VCE_CondimentEffectsTitle</li>
-										<li>VCE_CholesterolEffect</li>
+										
 									</statValues>
 									<statDescriptions>
 										<li>VCE_CondimentEffectsKetchup</li>
-										<li>VCE_CholesterolEffectDescDouble</li>
+									
 									</statDescriptions>
 								</li>
 							</modExtensions>
@@ -100,15 +100,15 @@
 								<li Class="AnimalBehaviours.AnimalStatExtension">
 									<statToAdd>
 										<li>VCE_CondimentEffects</li>
-										<li>VCE_HealthEffects</li>
+								
 									</statToAdd>
 									<statValues>
 										<li>VCE_CondimentEffectsTitle</li>
-										<li>VCE_NoEffect</li>
+										
 									</statValues>
 									<statDescriptions>
 										<li>VCE_CondimentEffectsSauce</li>
-										<li>VCE_NoEffectDesc</li>
+										
 									</statDescriptions>
 								</li>
 							</modExtensions>
@@ -202,16 +202,10 @@
 								<li>
 									<label>consumed ketchup</label>
 									<description>Delicious, sticky goodness.</description>
-									<baseMoodEffect>3</baseMoodEffect>
+									<baseMoodEffect>2</baseMoodEffect>
 								</li>
 							</stages>
-							<modExtensions>
-								<li Class="VanillaCookingExpanded.Thought_Hediff_Extension">
-									<hediffToAffect>VCE_Cholesterol</hediffToAffect>
-									<partToAffect>Heart</partToAffect>
-									<percentage>0.02</percentage>
-								</li>
-							</modExtensions>
+							
 						</ThoughtDef>
 					</value>
 				</li>
