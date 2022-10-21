@@ -169,7 +169,7 @@
 			<Nutrition>0</Nutrition>
 			<Flammability>1.3</Flammability>
 		</statBases>
-		<deepCommonality>1.25</deepCommonality>
+		<deepCommonality>0.5</deepCommonality>
 		<deepCountPerPortion>10</deepCountPerPortion>
 		<deepLumpSizeRange>2~5</deepLumpSizeRange>
 		<thingCategories>
