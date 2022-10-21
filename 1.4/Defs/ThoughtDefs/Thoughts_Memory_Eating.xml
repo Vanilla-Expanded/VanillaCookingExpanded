@@ -69,7 +69,7 @@
 			<li>
 				<label>consumed salt</label>
 				<description>A pinch of salt really enhances the flavours of a meal.</description>
-				<baseMoodEffect>2</baseMoodEffect>
+				<baseMoodEffect>3</baseMoodEffect>
 			</li>
 		</stages>	
 		
