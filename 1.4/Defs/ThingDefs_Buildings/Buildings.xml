@@ -49,6 +49,13 @@
 		<researchPrerequisites>
 			<li>VCE_SoupCooking</li>
 		</researchPrerequisites>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -131,11 +138,9 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<building>
+			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<sowTag>SupportPlantsOnly</sowTag>
-			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
-			<ai_chillDestination>false</ai_chillDestination>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		        <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
 			<buildingTags>
 				<li>Production</li>
 			</buildingTags>
@@ -231,11 +236,9 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<building>
+			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<sowTag>SupportPlantsOnly</sowTag>
-			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
-			<ai_chillDestination>false</ai_chillDestination>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		        <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
 			<buildingTags>
 				<li>Production</li>
 			</buildingTags>
@@ -331,11 +334,8 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<building>
+			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<sowTag>SupportPlantsOnly</sowTag>
-			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
-			<ai_chillDestination>false</ai_chillDestination>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<buildingTags>
 				<li>Production</li>
 			</buildingTags>
@@ -414,11 +414,8 @@
 
 		</inspectorTabs>
 		<building>
+			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<sowTag>SupportPlantsOnly</sowTag>
-			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
-			<ai_chillDestination>false</ai_chillDestination>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<buildingTags>
 				<li>Production</li>
 			</buildingTags>
@@ -491,6 +488,7 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<building>
+			<isMealSource>true</isMealSource>
 			<wantsHopperAdjacent>true</wantsHopperAdjacent>
 			<buildingTags>
 				<li>Production</li>
@@ -537,9 +535,4 @@
 			</li>
 		</comps>
 	</ThingDef>
-
-
-
-
-
 </Defs>
