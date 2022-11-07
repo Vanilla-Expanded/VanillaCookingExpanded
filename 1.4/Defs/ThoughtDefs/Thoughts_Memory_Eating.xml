@@ -298,7 +298,7 @@
 			<li>
 				<label>ate canned food</label>
 				<description>Eating directly from a can is like eating without a table.</description>
-				<baseMoodEffect>-1</baseMoodEffect>
+				<baseMoodEffect>0</baseMoodEffect>
 			</li>
 		</stages>	
 		
