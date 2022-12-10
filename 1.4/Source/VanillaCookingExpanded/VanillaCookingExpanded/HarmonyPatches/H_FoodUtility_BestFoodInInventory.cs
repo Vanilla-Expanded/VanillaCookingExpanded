@@ -12,7 +12,7 @@ using Verse;
 
 namespace VanillaCookingExpanded.HarmonyPatches
 {
-    [HarmonyPatch(typeof(FoodUtility), nameof(FoodUtility.BestFoodInInventory))]
+    [HarmonyPatch(typeof(FoodUtility), nameof(FoodUtility.BestFoodInInventory_NewTemp))]
     public static class H_FoodUtility_BestFoodInInventory
     {
         private static MethodInfo _isPawnDesperate =
