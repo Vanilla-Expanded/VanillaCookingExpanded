@@ -13,27 +13,16 @@ namespace VanillaCookingExpanded
     /// 
     /// NOTE: will not prevent the use of non-food ingredients if you select overly broad filters.
     /// </summary>
-    public class IngredientValueGetter_NutritionWithExtraIngredient : IngredientValueGetter
+    public class IngredientValueGetter_NutritionWithExtraIngredient : IngredientValueGetter_Nutrition
     {
         public override float ValuePerUnitOf(ThingDef t)
         {
             if (!t.IsNutritionGivingIngestible) return 1f;
 
-            if (t.ingredient!= null && t.ingredient.mergeCompatibilityTags.Contains("Condiments")) return 1f;
-
-
+            if (t.ingredient != null && t.ingredient.mergeCompatibilityTags.Contains("Condiments")) return 1f;
             return t.GetStatValueAbstract(StatDefOf.Nutrition);
         }
-        public override string BillRequirementsDescription(RecipeDef r, IngredientCount ing)
-        {
-            foreach (ThingDef def in ing.filter.AllowedThingDefs)
-            {
-                if (def.IsNutritionGivingIngestible)
-                    return "BillRequiresNutrition".Translate((ing.GetBaseCount()), "") + " (" + ing.filter.Summary + ")";
-            }
-
-            return "BillRequires".Translate((ing.GetBaseCount()), ing.filter.Summary);
-        }
+       
     }
 
 }
