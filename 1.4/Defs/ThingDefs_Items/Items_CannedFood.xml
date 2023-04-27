@@ -21,7 +21,7 @@
 		</thingCategories>
 		<rotatable>false</rotatable>
 		<ingestible>
-			<preferability>MealAwful</preferability>
+			<preferability>DesperateOnly</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
@@ -51,7 +51,7 @@
 			<li>PlantFoodRaw</li>
 		</thingCategories>
 		<ingestible>
-			<preferability>MealAwful</preferability>
+			<preferability>DesperateOnly</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>RawVegetable_Eat</ingestSound>
 			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
@@ -81,7 +81,7 @@
 			
 		</thingCategories>
 		<ingestible>
-			<preferability>MealAwful</preferability>
+			<preferability>DesperateOnly</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>RawVegetable_Eat</ingestSound>
 			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
@@ -111,7 +111,7 @@
 			<li>AnimalProductRaw</li>
 		</thingCategories>
 		<ingestible>
-			<preferability>MealAwful</preferability>
+			<preferability>DesperateOnly</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
@@ -141,7 +141,7 @@
 			<li>MeatRaw</li>
 		</thingCategories>
 		<ingestible>
-			<preferability>MealAwful</preferability>
+			<preferability>DesperateOnly</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>

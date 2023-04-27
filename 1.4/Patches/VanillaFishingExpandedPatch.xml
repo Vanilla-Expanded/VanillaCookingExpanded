@@ -1,23 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Fishing Expanded</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
-
-
 				<!-- Deep Fried Fish -->
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-
 						<RecipeDef>
 							<defName>VCE_DeepFryFish</defName>
 							<label>deep fry fish x20</label>
@@ -28,62 +21,46 @@
 							<soundWorking>Recipe_CookMeal</soundWorking>
 							<allowMixingIngredients>true</allowMixingIngredients>
 							<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-
 							<recipeUsers>
-								<li>VCE_DeepFrier</li>					
-							</recipeUsers>	
+								<li>VCE_DeepFrier</li>
+							</recipeUsers>
 							<ingredients>
 								<li>
 									<filter>
 										<categories>
 											<li>VCEF_RawFishCategory</li>
-
 										</categories>
 									</filter>
 									<count>1</count>
 								</li>
-
 							</ingredients>
 							<fixedIngredientFilter>
 								<categories>
-									<li>VCEF_RawFishCategory</li>				
-								</categories>			
+									<li>VCEF_RawFishCategory</li>
+								</categories>
 							</fixedIngredientFilter>
 							<defaultIngredientFilter>
 								<categories>
-									<li>VCEF_RawFishCategory</li>				
+									<li>VCEF_RawFishCategory</li>
 								</categories>
-
 							</defaultIngredientFilter>
 							<products>
 								<VCE_DeepFriedFish>4</VCE_DeepFriedFish>
 							</products>
-
 						</RecipeDef>
-
 					</value>
 				</li>
-
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs/RecipeDef[defName="VCE_DeepFryMeats"]/defaultIngredientFilter/disallowedCategories</xpath>
 					<value>
-
-
 						<li>VCEF_RawFishCategory</li>
-
-
 					</value>
 				</li>
-
 				<!-- Canned Fish -->
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-
 						<RecipeDef>
 							<defName>VCE_CanFish</defName>
 							<label>can fish x20</label>
@@ -94,16 +71,14 @@
 							<soundWorking>Recipe_CookMeal</soundWorking>
 							<allowMixingIngredients>true</allowMixingIngredients>
 							<recipeUsers>
-								<li>VCE_CanningMachine</li>					
-							</recipeUsers>	
-									<ingredientValueGetterClass>VanillaCookingExpanded.IngredientValueGetter_NutritionWithExtraIngredient</ingredientValueGetterClass>
-
+								<li>VCE_CanningMachine</li>
+							</recipeUsers>
+							<ingredientValueGetterClass>VanillaCookingExpanded.IngredientValueGetter_NutritionWithExtraIngredient</ingredientValueGetterClass>
 							<ingredients>
 								<li>
 									<filter>
 										<categories>
 											<li>VCEF_RawFishCategory</li>
-
 										</categories>
 									</filter>
 									<count>1</count>
@@ -119,13 +94,16 @@
 							</ingredients>
 							<fixedIngredientFilter>
 								<categories>
-									<li>VCEF_RawFishCategory</li>				
-								</categories>			
+									<li>VCEF_RawFishCategory</li>
+								</categories>
+								<disallowedThingDefs>
+									<li>VCE_CannedFish</li>
+								</disallowedThingDefs>
 							</fixedIngredientFilter>
 							<defaultIngredientFilter>
 								<categories>
-									<li>VCEF_RawFishCategory</li>				
-								</categories>								
+									<li>VCEF_RawFishCategory</li>
+								</categories>
 								<disallowedCategories>							
 								</disallowedCategories>
 							</defaultIngredientFilter>
@@ -133,40 +111,30 @@
 								<VCE_CannedFish>20</VCE_CannedFish>
 							</products>
 						</RecipeDef>
-
 					</value>
 				</li>
-				
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs/RecipeDef[defName="VCE_CanMeats"]/defaultIngredientFilter/disallowedCategories</xpath>
 					<value>
-
-
 						<li>VCEF_RawFishCategory</li>
-
-
 					</value>
 				</li>
-				
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs/RecipeDef[defName="VCE_CanMeats"]/fixedIngredientFilter/disallowedCategories</xpath>
 					<value>
-
-
 						<li>VCEF_RawFishCategory</li>
-
-
 					</value>
 				</li>
-
-
-
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VCE_CannedFish"]/thingCategories/li[text()="MeatRaw"]</xpath>
+					<value>
+						<li>VCEF_RawFishCategory</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
-
-
 </Patch>
 

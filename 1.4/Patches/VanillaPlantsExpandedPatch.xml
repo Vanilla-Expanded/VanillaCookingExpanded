@@ -399,6 +399,12 @@
 				</li>
 			</operations>
 		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VCE_CannedFruit"]/thingCategories</xpath>
+			<value>
+				<li>PlantFoodRaw</li>
+			</value>
+		</nomatch>
 	</Operation>
 </Patch>
 
