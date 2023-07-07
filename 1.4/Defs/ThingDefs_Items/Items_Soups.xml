@@ -175,6 +175,7 @@
 	<ThingDef ParentName="RoughPlantBase">
 		<defName>VCE_UncookedSoupGourmet</defName>
 		<label>uncooked gourmet soup</label>
+		<thingClass>VanillaCookingExpanded.GourmetMeal</thingClass>
 		<description>An uncooked gourmet soup. This needs to be cooked in an electric pot to be edible.</description>
 		<graphicData>
 			<texPath>Things/Items/Uncookedsoup/VCE_UncookedSoupGourmet</texPath>
@@ -195,9 +196,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 			<li Class="CompProperties_Ingredients" />
-			<li Class="VanillaCookingExpanded.CompProperties_StackByCondiments">
-				<condimentTagToCheck>Condiments</condimentTagToCheck>
-			</li>
+			
 		</comps>
 		<thingCategories>
 			<li>VCE_UncookedSoups</li>
@@ -213,6 +212,7 @@
 		<defName>VCE_CookedSoupGourmet</defName>
 		<label>gourmet soup</label>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity soup.</description>
+		<thingClass>VanillaCookingExpanded.GourmetMeal</thingClass>
 		<graphicData>
 			<texPath>Things/Meals/VCE_SoupGourmet</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -231,12 +231,7 @@
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Ingest_Drink</ingestSound>
 		</ingestible>
-		<comps>
-			<li Class="VanillaCookingExpanded.CompProperties_StackByCondiments">
-				<condimentTagToCheck>Condiments</condimentTagToCheck>
-			</li>
-
-		</comps>
+		
 	</ThingDef>
 
 

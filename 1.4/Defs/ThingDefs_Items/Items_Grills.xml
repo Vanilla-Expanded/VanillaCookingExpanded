@@ -160,6 +160,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>VCE_GourmetGrill</defName>
 		<label>gourmet grill</label>
+		<thingClass>VanillaCookingExpanded.GourmetMeal</thingClass>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity grilled meat. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</description>
 		<graphicData>
 			<texPath>Things/Meals/VCE_GrillGourmet</texPath>
@@ -184,15 +185,14 @@
 				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
 				<thingToTransformInto>VCE_RuinedGourmetGrill</thingToTransformInto>
 			</li>
-			<li Class="VanillaCookingExpanded.CompProperties_StackByCondiments">
-				<condimentTagToCheck>Condiments</condimentTagToCheck>
-			</li>
+			
 		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="MealCooked">
 		<defName>VCE_RuinedGourmetGrill</defName>
 		<label>ruined gourmet grill</label>
+		<thingClass>VanillaCookingExpanded.GourmetMeal</thingClass>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity grilled meat. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the "well fed" buff.</description>
 		<graphicData>
 			<texPath>Things/Meals/VCE_RuinedGrills/VCE_ColdGrillGourmet</texPath>
@@ -208,12 +208,7 @@
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
 		</ingestible>
-		<comps>
-
-			<li Class="VanillaCookingExpanded.CompProperties_StackByCondiments">
-				<condimentTagToCheck>Condiments</condimentTagToCheck>
-			</li>
-		</comps>
+		
 	</ThingDef>
 
 

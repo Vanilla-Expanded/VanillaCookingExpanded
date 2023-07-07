@@ -177,6 +177,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>VCE_GourmetDessert</defName>
 		<label>gourmet dessert</label>
+		<thingClass>VanillaCookingExpanded.GourmetMeal</thingClass>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity dessert.</description>
 		<graphicData>
 			<texPath>Things/Meals/VCE_DessertGourmet</texPath>
@@ -222,9 +223,6 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 			
-			<li Class="VanillaCookingExpanded.CompProperties_StackByCondiments">
-				<condimentTagToCheck>Condiments</condimentTagToCheck>
-			</li>
 		
 			<li Class="CompProperties_Forbiddable" />
 			<li Class="CompProperties_Ingredients" />

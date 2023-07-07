@@ -73,6 +73,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>VCE_GourmetBake</defName>
 		<label>gourmet bake</label>
+		<thingClass>VanillaCookingExpanded.GourmetMeal</thingClass>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity bake.</description>
 		<graphicData>
 			<texPath>Things/Meals/VCE_BakeGourmet</texPath>
@@ -90,11 +91,7 @@
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
-		<comps>
-			<li Class="VanillaCookingExpanded.CompProperties_StackByCondiments">
-				<condimentTagToCheck>Condiments</condimentTagToCheck>
-			</li>
-		</comps>
+		
 	</ThingDef>
 
 

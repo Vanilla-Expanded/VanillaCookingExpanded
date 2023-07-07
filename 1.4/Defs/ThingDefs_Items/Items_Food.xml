@@ -4,6 +4,7 @@
 		<defName>VCE_MealGourmet</defName>
 		<label>gourmet meal</label>
 		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity meal.</description>
+		<thingClass>VanillaCookingExpanded.GourmetMeal</thingClass>
 		<graphicData>
 			<texPath>Things/Meals/VCE_Gourmet</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -20,10 +21,6 @@
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
-		<comps>
-			<li Class="VanillaCookingExpanded.CompProperties_StackByCondiments">
-				<condimentTagToCheck>Condiments</condimentTagToCheck>
-			</li>
-		</comps>
+		
 	</ThingDef>
 </Defs>
