@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs> 
-
+<Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>VCE_ElectricPot</defName>
 		<label>electric pot</label>
@@ -70,33 +69,24 @@
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
 				<InsertFirstItemDesc>VCE_InsertSoupDesc</InsertFirstItemDesc>
 				<transfersIngredientLists>true</transfersIngredientLists>
-
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
 				<resetSemiautomaticIcon>UI/VCE_SoupReset</resetSemiautomaticIcon>
-
 				<chooseIngredientsIcon>UI/VCE_EmptySoupPotIcon</chooseIngredientsIcon>
-
 				<bringIngredientsText>VCE_StartInsertion</bringIngredientsText>
 				<bringIngredientsDesc>VCE_StartInsertionDesc</bringIngredientsDesc>
-				<bringIngredientsIcon>UI/VCE_InsertSoup</bringIngredientsIcon >
-
-				<cancelIngredientsText>VCE_CancelBringingSoup</cancelIngredientsText> 
+				<bringIngredientsIcon>UI/VCE_InsertSoup</bringIngredientsIcon>
+				<cancelIngredientsText>VCE_CancelBringingSoup</cancelIngredientsText>
 				<cancelIngredientsDesc>VCE_CancelBringingSoupDesc</cancelIngredientsDesc>
-				<cancelIngredientsIcon>UI/VCE_CancelSoup</cancelIngredientsIcon> 
-
+				<cancelIngredientsIcon>UI/VCE_CancelSoup</cancelIngredientsIcon>
 				<noPowerDestroysProgress>true</noPowerDestroysProgress>
 				<rareTicksToDestroy>10</rareTicksToDestroy>
 				<noPowerDestroysMessage>VCE_SoupFailurePower</noPowerDestroysMessage>
 				<noPowerDestroysInitialWarning>VCE_SoupFailurePowerWarning</noPowerDestroysInitialWarning>
-
 				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-
 			</li>
-
 		</comps>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>VCE_Grill</defName>
 		<label>grill</label>
@@ -140,7 +130,7 @@
 		<building>
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		        <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
 			<buildingTags>
 				<li>Production</li>
 			</buildingTags>
@@ -168,15 +158,14 @@
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
+			<li Class="CompProperties_ReportWorkSpeed">
+				<workSpeedStat>WorkTableWorkSpeedFactor</workSpeedStat>
 			</li>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
@@ -195,7 +184,6 @@
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>VCE_DeepFrier</defName>
 		<label>deep fryer</label>
@@ -238,7 +226,7 @@
 		<building>
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		        <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
 			<buildingTags>
 				<li>Production</li>
 			</buildingTags>
@@ -282,8 +270,8 @@
 					<li>ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
+			<li Class="CompProperties_ReportWorkSpeed">
+				<workSpeedStat>WorkTableWorkSpeedFactor</workSpeedStat>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -293,7 +281,6 @@
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>VCE_CanningMachine</defName>
 		<label>canning machine</label>
@@ -363,8 +350,8 @@
 					<li>ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
+			<li Class="CompProperties_ReportWorkSpeed">
+				<workSpeedStat>WorkTableWorkSpeedFactor</workSpeedStat>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -374,7 +361,6 @@
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>VCE_CondimentPrepTable</defName>
 		<label>condiment prep table</label>
@@ -411,7 +397,6 @@
 		</thingCategories>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
-
 		</inspectorTabs>
 		<building>
 			<isMealSource>true</isMealSource>
@@ -431,14 +416,13 @@
 			<li>VCE_CondimentsResearch</li>
 		</researchPrerequisites>
 		<comps>
-
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
+			<li Class="CompProperties_ReportWorkSpeed">
+				<workSpeedStat>WorkTableWorkSpeedFactor</workSpeedStat>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -448,7 +432,6 @@
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>VCE_CheesePress</defName>
 		<label>cheese press</label>
@@ -505,33 +488,26 @@
 		<comps>
 			<li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<buildingOnGraphic>Things/Buildings/VCE_CheesePressFull</buildingOnGraphic>
-				<buildingFinishedGraphic >Things/Buildings/VCE_CheesePressFull</buildingFinishedGraphic >
+				<buildingFinishedGraphic>Things/Buildings/VCE_CheesePressFull</buildingFinishedGraphic>
 				<numberOfInputs>1</numberOfInputs>
 				<qualitySelector>true</qualitySelector>
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
 				<InsertFirstItemDesc>VCE_InsertMilkDesc</InsertFirstItemDesc>
-
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
 				<resetSemiautomaticIcon>UI/VCE_ResetMilk</resetSemiautomaticIcon>
 				<chooseIngredientsIcon>UI/VCE_EmptyMilkIcon</chooseIngredientsIcon>
-
 				<bringIngredientsText>VCE_StartInsertionMilk</bringIngredientsText>
 				<bringIngredientsDesc>VCE_StartInsertionMilkDesc</bringIngredientsDesc>
-				<bringIngredientsIcon>UI/VCE_InsertMilk</bringIngredientsIcon >
-
-				<cancelIngredientsText>VCE_CancelBringingMilk</cancelIngredientsText> 
+				<bringIngredientsIcon>UI/VCE_InsertMilk</bringIngredientsIcon>
+				<cancelIngredientsText>VCE_CancelBringingMilk</cancelIngredientsText>
 				<cancelIngredientsDesc>VCE_CancelBringingMilkDesc</cancelIngredientsDesc>
-				<cancelIngredientsIcon>UI/VCE_CancelMilk</cancelIngredientsIcon> 
-
+				<cancelIngredientsIcon>UI/VCE_CancelMilk</cancelIngredientsIcon>
 				<noPowerDestroysProgress>false</noPowerDestroysProgress>
-
 				<removeProductText>VCE_RemoveCheese</removeProductText>
 				<removeProductDesc>VCE_RemoveCheeseDesc</removeProductDesc>
 				<removeProductIcon>UI/VCE_RemoveCheese</removeProductIcon>
-
 				<destroyIngredientsAtStartOfProcess>false</destroyIngredientsAtStartOfProcess>
 				<destroyIngredientsAtAwfulQuality>true</destroyIngredientsAtAwfulQuality>
-
 			</li>
 		</comps>
 	</ThingDef>
