@@ -30,3 +30,7 @@ E:\Steam\steamapps\common\RimWorld\Mods\15VanillaCookingExpanded\1.5\Assemblies\
 E:\Steam\steamapps\common\RimWorld\Mods\15VanillaCookingExpanded\1.5\Source\VanillaCookingExpanded\VanillaCookingExpanded\obj\Release\VanillaCookingExpanded.csproj.AssemblyReference.cache
 E:\Steam\steamapps\common\RimWorld\Mods\15VanillaCookingExpanded\1.5\Source\VanillaCookingExpanded\VanillaCookingExpanded\obj\Release\VanillaCookingExpanded.csproj.CoreCompileInputs.cache
 E:\Steam\steamapps\common\RimWorld\Mods\15VanillaCookingExpanded\1.5\Source\VanillaCookingExpanded\VanillaCookingExpanded\obj\Release\VanillaCookingExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded\1.5\Assemblies\VanillaCookingExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded\1.5\Source\VanillaCookingExpanded\VanillaCookingExpanded\obj\Release\VanillaCookingExpanded.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded\1.5\Source\VanillaCookingExpanded\VanillaCookingExpanded\obj\Release\VanillaCookingExpanded.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded\1.5\Source\VanillaCookingExpanded\VanillaCookingExpanded\obj\Release\VanillaCookingExpanded.dll

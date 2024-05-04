@@ -294,16 +294,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
-    <Compile Include="Achievements\HediffWithSeverityTracker.cs" />
-    <Compile Include="Achievements\ItemTrackerWithQuality.cs" />
-    <Compile Include="Achievements\MultipleBuildingTracker.cs" />
-    <Compile Include="Achievements\PlantTracker.cs" />
     <Compile Include="HarmonyPatches\H_FoodUtility_BestFoodInInventory.cs" />
     <Compile Include="HarmonyPatches\H_FoodUtility_TryFindBestFoodSourceFor.cs" />
     <Compile Include="HarmonyPatches\H_Thing_Ingested.cs" />
-    <Compile Include="HarmonyPatches\QuestManager_Notify_ThingsProduced_Patch.cs" />
-    <Compile Include="HarmonyPatches\Plant_PlantCollected_Patch.cs" />
     <Compile Include="IngredientValueGetters\IngredientValueGetter_NutritionWithExtraIngredient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\DessertDefs.cs" />
