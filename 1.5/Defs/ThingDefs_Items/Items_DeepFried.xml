@@ -102,7 +102,7 @@
 			<texPath>Things/Items/Deepfried/VCE_DeepfryedFish</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
-		<tradeability>Buyable</tradeability>
+		<tradeability>None</tradeability>
 		<stackLimit>75</stackLimit>
 
 		<thingCategories>
