@@ -54,6 +54,7 @@
 			<li Class="CompProperties_FoodPoisonable" />
 			<li Class="CompProperties_Drug">
 				<listOrder>1000</listOrder>
+				<teetotalerCanConsume>true</teetotalerCanConsume>
 				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
 			</li>
 		</comps>
@@ -112,6 +113,7 @@
 			<li Class="CompProperties_FoodPoisonable" />
 			<li Class="CompProperties_Drug">
 				<listOrder>1000</listOrder>
+				<teetotalerCanConsume>true</teetotalerCanConsume>
 				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
 			</li>
 		</comps>
@@ -169,6 +171,7 @@
 			<li Class="CompProperties_FoodPoisonable" />
 			<li Class="CompProperties_Drug">
 				<listOrder>1000</listOrder>
+				<teetotalerCanConsume>true</teetotalerCanConsume>
 				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
 			</li>
 		</comps>
@@ -229,6 +232,7 @@
 			<li Class="CompProperties_FoodPoisonable" />
 			<li Class="CompProperties_Drug">
 				<listOrder>1000</listOrder>
+				<teetotalerCanConsume>true</teetotalerCanConsume>
 				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
 			</li>
 		</comps>
