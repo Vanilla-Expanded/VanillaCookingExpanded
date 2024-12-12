@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
 	<HediffDef>
 		<defName>VCE_ConsumedMayo</defName>
 		<label>consumed mayo (from meal)</label>
@@ -21,12 +19,11 @@
 			</li>
 		</comps>
 		<stages>
-			<li>   
-				 <hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
+			<li>
+				<hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_ConsumedAgave</defName>
 		<label>consumed agave nectar (from meal)</label>
@@ -46,14 +43,13 @@
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<statOffsets>
-					<ImmunityGainSpeed>0.15</ImmunityGainSpeed>					
+					<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
 				</statOffsets>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_ConsumedSpices</defName>
 		<label>consumed spices (from meal)</label>
@@ -68,13 +64,12 @@
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
 				<thoughtDefs>
-
 					<li>VCE_ConsumedSpices</li>
 				</thoughtDefs>
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -84,7 +79,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
 	<!--This one is unused, I keep it for compat purposes-->
 	<HediffDef>
 		<defName>VCE_WellFed</defName>
@@ -100,18 +94,17 @@
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
 				<thoughtDefs>
-					<li>VCE_AteSimpleGrill</li>							
+					<li>VCE_AteSimpleGrill</li>
 				</thoughtDefs>
 			</li>
 		</comps>
 		<stages>
-			<li>   
-				 <hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
+			<li>
+				<hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
 	<!--  -->
-
 	<HediffDef>
 		<defName>VCE_WellFedSimple</defName>
 		<label>well fed (from grilled meal)</label>
@@ -126,17 +119,16 @@
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
 				<thoughtDefs>
-					<li>VCE_AteSimpleGrill</li>							
+					<li>VCE_AteSimpleGrill</li>
 				</thoughtDefs>
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_WellFedFine</defName>
 		<label>well fed (from grilled meal)</label>
@@ -150,21 +142,17 @@
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>					
-					<li>VCE_AteFineGrill</li>						
+				<thoughtDefs>
+					<li>VCE_AteFineGrill</li>
 				</thoughtDefs>
-				<removeThoughtDefs>					
-					<li>AteFineMeal</li>						
-				</removeThoughtDefs>
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_WellFedLavish</defName>
 		<label>well fed (from grilled meal)</label>
@@ -178,21 +166,17 @@
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>					
-					<li>VCE_AteLavishGrill</li>						
+				<thoughtDefs>
+					<li>VCE_AteLavishGrill</li>
 				</thoughtDefs>
-				<removeThoughtDefs>					
-					<li>AteLavishMeal</li>						
-				</removeThoughtDefs>
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_WellFedGourmet</defName>
 		<label>well fed (from grilled meal)</label>
@@ -206,23 +190,17 @@
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>					
-					<li>VCE_AteGourmetGrill</li>						
+				<thoughtDefs>
+					<li>VCE_AteGourmetGrill</li>
 				</thoughtDefs>
-				<removeThoughtDefs>		
-					<li>AteLavishMeal</li>	
-					<li>VCE_AteLavishGrill</li>	
-					<li>VCE_AteGourmetMeal</li>						
-				</removeThoughtDefs>
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_ConsumedDigestibleResurrectorNanites</defName>
 		<label>consumed resurrector nanites (from meal)</label>
@@ -237,14 +215,13 @@
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
 				<thoughtDefs>
-
 					<li>VCE_ConsumedDigestibleResurrectorNanites</li>
 				</thoughtDefs>
 				<resurrectionEffect>true</resurrectionEffect>
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -254,7 +231,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_SugarRush</defName>
 		<label>consumed sugar (from meal)</label>
@@ -269,13 +245,12 @@
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
 				<thoughtDefs>
-
 					<li>VCE_ConsumedSugar</li>
 				</thoughtDefs>
 			</li>
 		</comps>
 		<stages>
-			<li>   
+			<li>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -285,7 +260,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>VCE_AteGourmetMeal</defName>
 		<label>consumed gourmet food (from meal)</label>
@@ -299,16 +273,9 @@
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-
 				<thoughtDefs>
-
 					<li>VCE_AteGourmetMeal</li>
 				</thoughtDefs>
-				<removeThoughtDefs>		
-					<li>AteLavishMeal</li>	
-
-				</removeThoughtDefs>
-
 			</li>
 		</comps>
 		<stages>
@@ -317,9 +284,4 @@
 			</li>
 		</stages>
 	</HediffDef>
-
-
-
-
-
 </Defs>

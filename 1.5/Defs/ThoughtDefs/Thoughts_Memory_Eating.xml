@@ -150,6 +150,14 @@
 				<baseMoodEffect>14</baseMoodEffect>
 			</li>
 		</stages>
+		<replaceThoughts>
+			<li>AteLavishMeal</li>
+			<li>AteFineMeal</li>
+			<li>VCE_AteSimpleGrill</li>
+			<li>VCE_AteFineGrill</li>
+			<li>VCE_AteLavishGrill</li>
+			<li>VCE_AteGourmetGrill</li>
+		</replaceThoughts>
 	</ThoughtDef>
 
 
@@ -225,7 +233,14 @@
 				<baseMoodEffect>0</baseMoodEffect>
 			</li>
 		</stages>
-		
+		<replaceThoughts>
+			<li>AteLavishMeal</li>
+			<li>AteFineMeal</li>
+			<li>VCE_AteSimpleGrill</li>
+			<li>VCE_AteFineGrill</li>
+			<li>VCE_AteLavishGrill</li>
+			<li>VCE_AteGourmetGrill</li>
+		</replaceThoughts>
 	</ThoughtDef>
 	
 	<ThoughtDef>
@@ -240,7 +255,14 @@
 				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
-		
+		<replaceThoughts>
+			<li>AteLavishMeal</li>
+			<li>AteFineMeal</li>
+			<li>VCE_AteSimpleGrill</li>
+			<li>VCE_AteFineGrill</li>
+			<li>VCE_AteLavishGrill</li>
+			<li>VCE_AteGourmetGrill</li>
+		</replaceThoughts>
 	</ThoughtDef>
 	
 	<ThoughtDef>
@@ -255,7 +277,14 @@
 				<baseMoodEffect>12</baseMoodEffect>
 			</li>
 		</stages>
-		
+		<replaceThoughts>
+			<li>AteLavishMeal</li>
+			<li>AteFineMeal</li>
+			<li>VCE_AteSimpleGrill</li>
+			<li>VCE_AteFineGrill</li>
+			<li>VCE_AteLavishGrill</li>
+			<li>VCE_AteGourmetGrill</li>
+		</replaceThoughts>
 	</ThoughtDef>
 	
 	<ThoughtDef>
@@ -270,7 +299,14 @@
 				<baseMoodEffect>14</baseMoodEffect>
 			</li>
 		</stages>
-		
+		<replaceThoughts>
+			<li>AteLavishMeal</li>
+			<li>AteFineMeal</li>
+			<li>VCE_AteSimpleGrill</li>
+			<li>VCE_AteFineGrill</li>
+			<li>VCE_AteLavishGrill</li>
+			<li>VCE_AteGourmetGrill</li>
+		</replaceThoughts>
 	</ThoughtDef>
 	
 		<!-- ======= Fried and canned food based thoughts ========= -->	

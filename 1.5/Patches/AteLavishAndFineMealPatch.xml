@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>Defs/ThoughtDef[defName = "AteLavishMeal"]/replaceThoughts</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName = "AteLavishMeal"]</xpath>
+			<value>
+				<replaceThoughts>
+					<li>VCE_AteGourmetMeal</li>
+					<li>VCE_AteSimpleGrill</li>
+					<li>VCE_AteFineGrill</li>
+					<li>VCE_AteLavishGrill</li>
+					<li>VCE_AteGourmetGrill</li>
+				</replaceThoughts>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThoughtDef[defName = "AteLavishMeal"]/replaceThoughts</xpath>
+			<value>
+				<li>VCE_AteGourmetMeal</li>
+				<li>VCE_AteSimpleGrill</li>
+				<li>VCE_AteFineGrill</li>
+				<li>VCE_AteLavishGrill</li>
+				<li>VCE_AteGourmetGrill</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>Defs/ThoughtDef[defName = "AteFineMeal"]/replaceThoughts</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName = "AteFineMeal"]</xpath>
+			<value>
+				<replaceThoughts>
+					<li>VCE_AteGourmetMeal</li>
+					<li>VCE_AteSimpleGrill</li>
+					<li>VCE_AteFineGrill</li>
+					<li>VCE_AteLavishGrill</li>
+					<li>VCE_AteGourmetGrill</li>
+				</replaceThoughts>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThoughtDef[defName = "AteFineMeal"]/replaceThoughts</xpath>
+			<value>
+				<li>VCE_AteGourmetMeal</li>
+				<li>VCE_AteSimpleGrill</li>
+				<li>VCE_AteFineGrill</li>
+				<li>VCE_AteLavishGrill</li>
+				<li>VCE_AteGourmetGrill</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
