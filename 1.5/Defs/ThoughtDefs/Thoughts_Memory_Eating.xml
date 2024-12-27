@@ -236,7 +236,7 @@
 		<replaceThoughts>
 			<li>AteLavishMeal</li>
 			<li>AteFineMeal</li>
-			<li>VCE_AteSimpleGrill</li>
+		
 			<li>VCE_AteFineGrill</li>
 			<li>VCE_AteLavishGrill</li>
 			<li>VCE_AteGourmetGrill</li>
@@ -259,7 +259,7 @@
 			<li>AteLavishMeal</li>
 			<li>AteFineMeal</li>
 			<li>VCE_AteSimpleGrill</li>
-			<li>VCE_AteFineGrill</li>
+			
 			<li>VCE_AteLavishGrill</li>
 			<li>VCE_AteGourmetGrill</li>
 		</replaceThoughts>
@@ -282,7 +282,7 @@
 			<li>AteFineMeal</li>
 			<li>VCE_AteSimpleGrill</li>
 			<li>VCE_AteFineGrill</li>
-			<li>VCE_AteLavishGrill</li>
+			
 			<li>VCE_AteGourmetGrill</li>
 		</replaceThoughts>
 	</ThoughtDef>
@@ -305,7 +305,7 @@
 			<li>VCE_AteSimpleGrill</li>
 			<li>VCE_AteFineGrill</li>
 			<li>VCE_AteLavishGrill</li>
-			<li>VCE_AteGourmetGrill</li>
+		
 		</replaceThoughts>
 	</ThoughtDef>
 	
