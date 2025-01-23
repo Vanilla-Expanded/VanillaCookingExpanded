@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded\\1.5\\source\\vanillacookingexpanded\\vanillacookingexpanded\\harmonypatches\\genrecipe_makerecipeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\harmonypatches\\genrecipe_makerecipeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded\\1.5\\source\\vanillacookingexpanded\\vanillacookingexpanded\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded\\1.5\\source\\vanillacookingexpanded\\vanillacookingexpanded\\staticcollections\\staticcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\staticcollections\\staticcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\harmonypatches\\h_thing_ingested.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\harmonypatches\\h_thing_ingested.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\ingredientvaluegetters\\ingredientvaluegetter_nutritionwithextraingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\ingredientvaluegetters\\ingredientvaluegetter_nutritionwithextraingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\utils\\pawnutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\utils\\pawnutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\utils\\numberutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\utils\\numberutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\utils\\dessertdefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\utils\\dessertdefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\utils\\harmonyutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\utils\\harmonyutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\harmonypatches\\h_foodutility_tryfindbestfoodsourcefor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\harmonypatches\\h_foodutility_tryfindbestfoodsourcefor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\vanillacookingexpanded\\harmonypatches\\h_foodutility_bestfoodininventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|solutionrelative:vanillacookingexpanded\\harmonypatches\\h_foodutility_bestfoodininventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|VanillaCookingExpanded||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF722B3-84E0-487F-8486-F8D7FD404E0B}|VanillaCookingExpanded\\VanillaCookingExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillacookingexpanded\\1.5\\source\\vanillacookingexpanded\\vanillacookingexpanded\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaticCollections.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\StaticCollections\\StaticCollections.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\StaticCollections\\StaticCollections.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\StaticCollections\\StaticCollections.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\StaticCollections\\StaticCollections.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:28:41.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InternalDefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\DefOfs\\InternalDefOf.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\DefOfs\\InternalDefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\DefOfs\\InternalDefOf.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\DefOfs\\InternalDefOf.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:27:15.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "H_Thing_Ingested.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\H_Thing_Ingested.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\HarmonyPatches\\H_Thing_Ingested.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\H_Thing_Ingested.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\HarmonyPatches\\H_Thing_Ingested.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PawnUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\PawnUtility.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\Utils\\PawnUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\PawnUtility.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\Utils\\PawnUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DessertDefs.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\DessertDefs.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\Utils\\DessertDefs.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\DessertDefs.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\Utils\\DessertDefs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HarmonyUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\HarmonyUtility.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\Utils\\HarmonyUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\HarmonyUtility.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\Utils\\HarmonyUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NumberUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\NumberUtility.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\Utils\\NumberUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\Utils\\NumberUtility.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\Utils\\NumberUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IngredientValueGetter_NutritionWithExtraIngredient.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\IngredientValueGetters\\IngredientValueGetter_NutritionWithExtraIngredient.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\IngredientValueGetters\\IngredientValueGetter_NutritionWithExtraIngredient.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\IngredientValueGetters\\IngredientValueGetter_NutritionWithExtraIngredient.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\IngredientValueGetters\\IngredientValueGetter_NutritionWithExtraIngredient.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenRecipe_MakeRecipeProducts.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\GenRecipe_MakeRecipeProducts.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\HarmonyPatches\\GenRecipe_MakeRecipeProducts.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\GenRecipe_MakeRecipeProducts.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\HarmonyPatches\\GenRecipe_MakeRecipeProducts.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:25:01.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "H_FoodUtility_TryFindBestFoodSourceFor.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_TryFindBestFoodSourceFor.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_TryFindBestFoodSourceFor.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_TryFindBestFoodSourceFor.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_TryFindBestFoodSourceFor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "H_FoodUtility_BestFoodInInventory.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_BestFoodInInventory.cs",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_BestFoodInInventory.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_BestFoodInInventory.cs",
+              "RelativeToolTip": "VanillaCookingExpanded\\HarmonyPatches\\H_FoodUtility_BestFoodInInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:12:06.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VanillaCookingExpanded",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\VanillaCookingExpanded.csproj",
+              "RelativeDocumentMoniker": "VanillaCookingExpanded\\VanillaCookingExpanded.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaCookingExpanded\\1.5\\Source\\VanillaCookingExpanded\\VanillaCookingExpanded\\VanillaCookingExpanded.csproj",
+              "RelativeToolTip": "VanillaCookingExpanded\\VanillaCookingExpanded.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-01-26T21:39:25.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
