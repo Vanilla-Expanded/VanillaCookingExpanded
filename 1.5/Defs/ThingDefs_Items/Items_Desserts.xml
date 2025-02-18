@@ -41,6 +41,7 @@
 			<tasteThought>VCE_AteSimpleDessert</tasteThought>
 			<joyKind>VCE_Confectionery</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
 			<ingestSound>Meal_Eat</ingestSound>
 			<ingestEffect>EatVegetarian</ingestEffect>
 		</ingestible>
@@ -100,6 +101,7 @@
 			<tasteThought>VCE_AteFineDessert</tasteThought>
 			<joyKind>VCE_Confectionery</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
 			<ingestSound>Meal_Eat</ingestSound>
 			<ingestEffect>EatVegetarian</ingestEffect>
 		</ingestible>
@@ -158,6 +160,7 @@
 			<joyKind>VCE_Confectionery</joyKind>
 			<chairSearchRadius>9</chairSearchRadius>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
 			<ingestSound>Meal_Eat</ingestSound>
 			<ingestEffect>EatVegetarian</ingestEffect>
 		</ingestible>
@@ -217,6 +220,7 @@
 			<chairSearchRadius>9</chairSearchRadius>
 			<optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
 			<ingestSound>Meal_Eat</ingestSound>
 			<ingestEffect>EatVegetarian</ingestEffect>
 		</ingestible>
