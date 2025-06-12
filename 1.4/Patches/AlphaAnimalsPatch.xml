@@ -1,19 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Alpha Animals</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
-
-
-
-<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs</xpath>
 					<value>
@@ -22,11 +16,11 @@
 							<building>VCE_CheesePress</building>
 							<items>
 								<li>AA_NightMilk</li>
-							</items>	
+							</items>
 							<amount>
 								<li>50</li>
 							</amount>
-							<result>VCE_NightCheese</result>	
+							<result>VCE_NightCheese</result>
 							<yield>25</yield>
 							<useQualityIncreasing>true</useQualityIncreasing>
 							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
@@ -39,22 +33,16 @@
 						</ItemProcessor.CombinationDef>
 					</value>
 				</li>
-
-
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs</xpath>
 					<value>
-
-
 						<ThingDef ParentName="MealBase">
 							<defName>VCE_NightCheese</defName>
 							<label>night cheese</label>
 							<description>The pitch black rind of this soft cheese gives it a striking contrast with its pale paste. Very nutritive.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_NightCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_NightCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -71,7 +59,7 @@
 								<preferability>MealLavish</preferability>
 								<ingestEffect>EatMeat</ingestEffect>
 								<ingestSound>Meal_Eat</ingestSound>
-								<maxNumToIngestAtOnce>6</maxNumToIngestAtOnce>	
+								<maxNumToIngestAtOnce>6</maxNumToIngestAtOnce>
 							</ingestible>
 							<comps>
 								<li Class="CompProperties_Rottable">
@@ -81,35 +69,22 @@
 								<li>
 									<compClass>CompQuality</compClass>
 								</li>
-								<li Class="VanillaCookingExpanded.CompProperties_StackByQuality" />
+								<li Class="VanillaCookingExpanded.CompProperties_StackByQuality"/>
 								<li Class="VFECore.CompProperties_IngestedThoughtFromQuality">
 									<ingestedThought>VCE_AteCheese</ingestedThought>
 								</li>
 							</comps>
 						</ThingDef>
-
-
 					</value>
 				</li>
-
-
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_CheesePressFirstItem"]/items</xpath>
 					<value>
 						<li>AA_NightMilk</li>
-
-
 					</value>
 				</li>
-
-
-
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs</xpath>
 					<value>
@@ -118,11 +93,11 @@
 							<building>VCE_CheesePress</building>
 							<items>
 								<li>AA_BlueMilk</li>
-							</items>	
+							</items>
 							<amount>
 								<li>50</li>
 							</amount>
-							<result>VCE_BlueCheese</result>	
+							<result>VCE_BlueCheese</result>
 							<yield>25</yield>
 							<useQualityIncreasing>true</useQualityIncreasing>
 							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
@@ -135,19 +110,16 @@
 						</ItemProcessor.CombinationDef>
 					</value>
 				</li>
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs</xpath>
 					<value>
-
-
 						<ThingDef ParentName="MealBase">
 							<defName>VCE_BlueCheese</defName>
 							<label>blue cheese</label>
 							<description>Blue cheese is cheese made with cultures of the mold Penicillium, giving it blue spots or veins. This carries a "distinct" smell.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_BlueCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_BlueCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -173,20 +145,15 @@
 								<li>
 									<compClass>CompQuality</compClass>
 								</li>
-								<li Class="VanillaCookingExpanded.CompProperties_StackByQuality" />
+								<li Class="VanillaCookingExpanded.CompProperties_StackByQuality"/>
 								<li Class="VFECore.CompProperties_IngestedThoughtFromQuality">
 									<ingestedThought>VCE_AteCheese</ingestedThought>
 								</li>
 							</comps>
 						</ThingDef>
-
-
 					</value>
 				</li>
-
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs</xpath>
 					<value>
@@ -195,11 +162,11 @@
 							<building>VCE_CheesePress</building>
 							<items>
 								<li>AA_GowMilk</li>
-							</items>	
+							</items>
 							<amount>
 								<li>50</li>
 							</amount>
-							<result>VCE_GowCheese</result>	
+							<result>VCE_GowCheese</result>
 							<yield>25</yield>
 							<useQualityIncreasing>true</useQualityIncreasing>
 							<awfulQualityAgeDaysThreshold>13</awfulQualityAgeDaysThreshold>
@@ -212,20 +179,16 @@
 						</ItemProcessor.CombinationDef>
 					</value>
 				</li>
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs</xpath>
 					<value>
-
-
 						<ThingDef ParentName="MealBase">
 							<defName>VCE_GowCheese</defName>
 							<label>gow cheese</label>
 							<description>Gow cheese is greatly appreciated for its smooth, melting texture, and its very soft taste.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_GowCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_GowCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -251,18 +214,15 @@
 								<li>
 									<compClass>CompQuality</compClass>
 								</li>
-								<li Class="VanillaCookingExpanded.CompProperties_StackByQuality" />
+								<li Class="VanillaCookingExpanded.CompProperties_StackByQuality"/>
 								<li Class="VFECore.CompProperties_IngestedThoughtFromQuality">
 									<ingestedThought>VCE_AteCheese</ingestedThought>
 								</li>
 							</comps>
 						</ThingDef>
-
-
 					</value>
 				</li>
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<success>Always</success>
 					<xpath>/Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_CheesePressFirstItem"]/items</xpath>
 					<value>
@@ -270,17 +230,8 @@
 						<li>AA_GowMilk</li>
 					</value>
 				</li>
-
-
-
-
-
-
-
 			</operations>
 		</match>
 	</Operation>
-
-
 </Patch>
 

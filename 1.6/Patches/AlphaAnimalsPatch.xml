@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>VCE_CheeseGraphicOffsets_AlphaAnimals</defName>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>AA_NightMilk</key>
+									<value>13</value>
+								</li>
+								<li>
+									<key>AA_BlueMilk</key>
+									<value>2</value>
+								</li>
+								<li>
+									<key>AA_GowMilk</key>
+									<value>7</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_NightMilkIntoCheese</defName>
+							<label>Night Milk into cheese</label>
+							<description>Turns 40 night milk into 25 cheese.</description>
+							<labelOverride>Turn 40 night milk into 25 cheese.</labelOverride>
+							<priorityInBillList>2</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>AA_NightMilk</thing>
+									<countNeeded>40</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_GowMilkIntoCheese</defName>
+							<label>Gow Milk into cheese</label>
+							<description>Turns 40 gow milk into 25 cheese.</description>
+							<labelOverride>Turn 40 gow milk into 25 cheese.</labelOverride>
+							<priorityInBillList>3</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>AA_GowMilk</thing>
+									<countNeeded>40</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_BlueMilkIntoCheese</defName>
+							<label>Blue Milk into cheese</label>
+							<description>Turns 40 blue milk into 25 cheese.</description>
+							<labelOverride>Turn 40 blue milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>AA_BlueMilk</thing>
+									<countNeeded>40</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+					<value>
+						<li>VCE_NightMilkIntoCheese</li>
+						<li>VCE_GowMilkIntoCheese</li>
+						<li>VCE_BlueMilkIntoCheese</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_Cheese"]/comps/li[@Class="VEF.Things.CompProperties_LabelByIngredients"]/overrides</xpath>
+					<value>
+						<li>
+							<key>AA_NightMilk</key>
+							<value>Night</value>
+						</li>
+						<li>
+							<key>AA_GowMilk</key>
+							<value>Gow</value>
+						</li>
+						<li>
+							<key>AA_BlueMilk</key>
+							<value>Blue</value>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

@@ -13,7 +13,7 @@
 
 		<description>Cheese is a dairy product, derived from milk and produced in a wide range of flavors, textures and forms by coagulation of the milk protein casein. Cheese is valued for its portability, long life, and high content of fat, protein, calcium, and phosphorus. It is more compact and has a longer shelf life than milk.</description>
 		<graphicData>
-			<texPath>Things/Items/Cheese/VCE_Cheese</texPath>
+			<texPath>Things/Items/VCE_Cheese/VCE_zCheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<tradeability>Sellable</tradeability>

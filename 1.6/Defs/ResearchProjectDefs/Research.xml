@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>VCE_CondimentsResearch</defName>
+		<label>food condiments</label>
+		<tab>VCE_Cooking</tab>
+		<techLevel>Neolithic</techLevel>
+		<description>A condiment is a spice, sauce, or preparation that is added to food, either after or during cooking, to impart a specific flavor, to enhance the flavor, or to complement the dish. All condiments are created at the condiment prep table.</description>
+		<baseCost>500</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->flavors of distinction</li>
+    <li>subject_story->unlocked the secrets of enhancing flavor through the creation of diverse condiments</li>
+    <li>subject_story->pioneered the use of herbs, spices, and sauces to transform simple meals into culinary experiences</li>
+    <li>subject_story->cultivated a rich culture of taste, encouraging culinary experimentation and innovation</li>
+    <li>subject_gerund->elevating the art of flavor through condiment mastery</li>
+  </rulesStrings>
+</generalRules>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VCE_SoupCooking</defName>
+		<label>soup cooking</label>
+		<tab>VCE_Cooking</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Soup is a primarily liquid food, generally served warm or hot, that is made by combining ingredients of meat or vegetables with stock, or water. Hot soups are additionally characterized by boiling solid ingredients in liquids in a pot until the flavors are extracted. This research also gives access to the electric pot necessary to cook soups.</description>
+		<baseCost>400</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->the essence of nourishment</li>
+    <li>subject_story->mastered the delicate balance of ingredients to create soups that comfort and heal</li>
+    <li>subject_story->introduced the electric pot, revolutionizing soup preparation with efficiency and precision</li>
+    <li>subject_story->expanded the culinary repertoire, exploring the depths of flavor achievable in liquid form</li>
+    <li>subject_gerund->crafting the soul of cuisine in every pot of soup</li>
+  </rulesStrings>
+</generalRules>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VCE_Grilling</defName>
+		<label>grilling</label>
+		<tab>VCE_Cooking</tab>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<description>Grilling is a form of cooking that involves dry heat applied to the surface of food, commonly from above, below or from the side. Grilling usually involves a significant amount of direct, radiant heat, and tends to be used for cooking meat and vegetables quickly. This research gives access to the grill.</description>
+		<baseCost>400</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->the primal art of fire</li>
+    <li>subject_story->embraced the primal connection between fire and food, perfecting the technique of grilling</li>
+    <li>subject_story->transformed the act of cooking into a celebration of flavor, texture, and aroma</li>
+    <li>subject_story->innovated with designs for grills that enhance the natural qualities of meats and vegetables</li>
+    <li>subject_gerund->searing perfection into every meal with the mastery of grilling</li>
+  </rulesStrings>
+</generalRules>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VCE_DeepFrying</defName>
+		<label>deep frying</label>
+		<tab>VCE_Cooking</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<description>Deep frying (also referred to as deep fat frying) is a cooking method in which food is submerged in hot fat, most commonly oil, as opposed to the shallow oil used in conventional frying done in a frying pan. This research gives access to the deep fryer.</description>
+		<baseCost>600</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->the golden crunch</li>
+    <li>subject_story->discovered the transformative effect of deep frying, enveloping foods in a crispy, golden exterior</li>
+    <li>subject_story->engineered the deep fryer, a marvel of culinary technology, to achieve consistent and perfect results</li>
+    <li>subject_story->elevated the simple act of frying into a culinary craft, celebrated across cultures</li>
+    <li>subject_gerund->delving into the depths of flavor with the magic of deep frying</li>
+  </rulesStrings>
+</generalRules>
+	</ResearchProjectDef>
+	
+		<ResearchProjectDef>
+		<defName>VCE_Canning</defName>
+		<label>canning</label>
+		<tab>VCE_Cooking</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<description>Canning is a method of preserving food in which the food contents are processed and sealed in an airtight container (jars like Mason jars, and steel and tin cans). Canning provides a shelf life of several years. A freeze-dried canned product, such as canned dried lentils, could last as long as 30 years in an edible state. This research gives access to the canning machine.</description>
+		<baseCost>600</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->the vaults of flavor</li>
+    <li>subject_story->revolutionized food preservation through canning, extending the bounty of the harvest</li>
+    <li>subject_story->mastered the science of sealing freshness and taste, ensuring nourishment year-round</li>
+    <li>subject_story->introduced the canning machine, a key to unlocking the potential of prolonged food storage</li>
+    <li>subject_gerund->preserving the essence of the seasons within every jar and can</li>
+  </rulesStrings>
+</generalRules>
+	</ResearchProjectDef>
+	
+		<ResearchProjectDef>
+		<defName>VCE_CheeseMaking</defName>
+		<label>cheese making</label>
+		<tab>VCE_Cooking</tab>
+		<techLevel>Medieval</techLevel>		
+		<description>Cheesemaking (or caseiculture) is the craft of making cheese. The production of cheese, like many other food preservation processes, allows the nutritional and economic value of milk to be preserved in concentrated form. Cheesemaking allows the production of the cheese with diverse flavors and consistencies. This research gives access to the cheese press.</description>
+		<baseCost>750</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->alchemy of milk</li>
+    <li>subject_story->transformed the humble origins of milk into the rich complexity of cheese</li>
+    <li>subject_story->cultivated an array of cheeses, each a testament to the craft and culture of cheesemaking</li>
+    <li>subject_story->designed the cheese press, squeezing out new traditions and tastes from an ancient practice</li>
+    <li>subject_gerund->crafting cultures and flavors in the artful creation of cheese</li>
+  </rulesStrings>
+</generalRules>
+	</ResearchProjectDef>
+	
+
+
+
+
+
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <VSE.Expertise.ExpertiseDef>
+    <defName>VCE_GourmetChef</defName>
+    <label>Gourmet cooking</label>
+    <description>An expertise in improving meals beyond their usual level of quality.</description>
+    <skill>Cooking</skill>
+    <statOffsets>
+      <VCE_FoodImprovementChance>0.01</VCE_FoodImprovementChance>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+  <VSE.Expertise.ExpertiseDef>
+    <defName>VCE_FlavourMaster</defName>
+    <label>Flavour mastery</label>
+    <skill>Cooking</skill>
+    <description>An expertise in randomly adding cooking condiments to meals on a whim.</description>
+    <statOffsets>
+      <VCEF_FoodCondimentChance>0.01</VCEF_FoodCondimentChance>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+ 
+</Defs>

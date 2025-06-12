@@ -52,7 +52,7 @@
 							<label>weird cheese</label>
 							<description>A foul smelling cheese constantly dripping an oily film. It has a sour, chemical taste, which can either be considered an acquired taste or disgusting.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_WeirdCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_WeirdCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -130,7 +130,7 @@
 							<label>mecha cheese</label>
 							<description>A mechanoid cheese created by pressing mechanoid milk. This isn't edible, but if consumed it will act as an incredibly powerful drug, similar to Luciferium, but without addictiveness.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_MechaCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_MechaCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -289,7 +289,7 @@
 							<label>bearffalo cheese</label>
 							<description>An strange blue cheese created from Bearffalo milk. Very nutritive, but very high in saturated fats.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_BearffaloCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_BearffaloCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -388,7 +388,7 @@
 							<label>thrumffalo gouda</label>
 							<description>Thrumffalo Gouda is considered a refined delicacy. It takes a very long time to ripen, but once it is ready it is one of the most nourishing cheeses available on the Rim.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_ThrumffaloGouda</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_ThrumffaloGouda</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -467,7 +467,7 @@
 							<label>lumpy cheese</label>
 							<description>This lumpy cheese seems to have concentrated protein chunks, tasting like chicken nuggets. Colonists seem to like it.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_LumpyCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_LumpyCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -548,7 +548,7 @@
 							<label>Chickenffalo cheese</label>
 							<description>A very bland, almost tasteless cheese. The only good thing about it is that it ripens much faster than other cheeses.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_ChickenffaloCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_ChickenffaloCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -626,7 +626,7 @@
 							<label>brown cheese</label>
 							<description>A brown coloured cheese, similar in taste to Cheddar but with roasted nut overtones. Not very nutritive, but very pleasurable to eat.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_BrownCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_BrownCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -706,7 +706,7 @@
 							<label>hairy cheese</label>
 							<description>Why? Why, why, why, WHY? Cheese. With hair. WHY???</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_HairyCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_HairyCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -784,7 +784,7 @@
 							<label>rat cheese</label>
 							<description>Once you get over the thought that this cheese was created from giant rat milk, it isn't so bad at all!</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_RatCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_RatCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_MilkIntoCheese</defName>
+		<label>Milk into cheese</label>
+		<description>Turns 50 milk into 25 cheese.</description>
+		<labelOverride>Turn 50 milk into 25 cheese.</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<useIngredients>true</useIngredients>
+		<ingredients>
+			<li>
+				<thing>Milk</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticksQuality>
+			<li>600000</li>
+			<li>900000</li>
+			<li>1500000</li>
+			<li>2100000</li>
+			<li>2400000</li>
+			<li>2700000</li>
+			<li>4500000</li>
+		</ticksQuality>
+		<results>
+			<li>
+				<thing>VCE_Cheese</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<stopAtQuality>true</stopAtQuality>
+		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_JellyIntoCheese</defName>
+		<label>Insect jelly into cheese</label>
+		<description>Turns 50 insect jelly into 25 cheese.</description>
+		<labelOverride>Turn 50 insect jelly into 25 cheese.</labelOverride>
+		<priorityInBillList>1</priorityInBillList>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<useIngredients>true</useIngredients>
+		<ingredients>
+			<li>
+				<thing>InsectJelly</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticksQuality>
+			<li>600000</li>
+			<li>900000</li>
+			<li>1500000</li>
+			<li>2100000</li>
+			<li>2400000</li>
+			<li>2700000</li>
+			<li>4500000</li>
+		</ticksQuality>
+		<results>
+			<li>
+				<thing>VCE_Cheese</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<stopAtQuality>true</stopAtQuality>
+		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_SimpleSoupRecipe</defName>
+		<label>Cook Simple Soup</label>
+		<description>Turns an uncooked simple soup into 10 cooked simple soups.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<autoExtract>false</autoExtract>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>VCE_UncookedSoupSimple</thing>
+				<countNeeded>1</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>120000</ticks>
+		<results>
+			<li>
+				<thing>VCE_CookedSoupSimple</thing>
+				<count>10</count>
+			</li>
+		</results>
+		<noPowerDestroysProgress>true</noPowerDestroysProgress>
+		<noPowerDestroysMessage>VCE_SoupFailurePower</noPowerDestroysMessage>
+		<noPowerDestroysInitialWarning>VCE_SoupFailurePowerWarning</noPowerDestroysInitialWarning>
+		<rareTicksToDestroy>10</rareTicksToDestroy>
+		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_FineSoupRecipe</defName>
+		<label>Cook Fine Soup</label>
+		<description>Turns an uncooked fine soup into 10 cooked fine soups.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<autoExtract>false</autoExtract>
+		<priorityInBillList>1</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>VCE_UncookedSoupFine</thing>
+				<countNeeded>1</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>120000</ticks>
+		<results>
+			<li>
+				<thing>VCE_CookedSoupFine</thing>
+				<count>10</count>
+			</li>
+		</results>
+		<noPowerDestroysProgress>true</noPowerDestroysProgress>
+		<noPowerDestroysMessage>VCE_SoupFailurePower</noPowerDestroysMessage>
+		<noPowerDestroysInitialWarning>VCE_SoupFailurePowerWarning</noPowerDestroysInitialWarning>
+		<rareTicksToDestroy>10</rareTicksToDestroy>
+		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_LavishSoupRecipe</defName>
+		<label>Cook Lavish Soup</label>
+		<description>Turns an uncooked lavish soup into 10 cooked lavish soups.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<autoExtract>false</autoExtract>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<priorityInBillList>2</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>VCE_UncookedSoupLavish</thing>
+				<countNeeded>1</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>120000</ticks>
+		<results>
+			<li>
+				<thing>VCE_CookedSoupLavish</thing>
+				<count>10</count>
+			</li>
+		</results>
+		<noPowerDestroysProgress>true</noPowerDestroysProgress>
+		<noPowerDestroysMessage>VCE_SoupFailurePower</noPowerDestroysMessage>
+		<noPowerDestroysInitialWarning>VCE_SoupFailurePowerWarning</noPowerDestroysInitialWarning>
+		<rareTicksToDestroy>10</rareTicksToDestroy>
+		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_GourmetSoupRecipe</defName>
+		<label>Cook Gourmet Soup</label>
+		<description>Turns an uncooked gourmet soup into 10 cooked gourmet soups.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<autoExtract>false</autoExtract>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<priorityInBillList>3</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>VCE_UncookedSoupGourmet</thing>
+				<countNeeded>1</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>120000</ticks>
+		<results>
+			<li>
+				<thing>VCE_CookedSoupGourmet</thing>
+				<count>10</count>
+			</li>
+		</results>
+		<noPowerDestroysProgress>true</noPowerDestroysProgress>
+		<noPowerDestroysMessage>VCE_SoupFailurePower</noPowerDestroysMessage>
+		<noPowerDestroysInitialWarning>VCE_SoupFailurePowerWarning</noPowerDestroysInitialWarning>
+		<rareTicksToDestroy>10</rareTicksToDestroy>
+		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
+	</PipeSystem.ProcessDef>
+</Defs>

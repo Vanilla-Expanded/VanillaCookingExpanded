@@ -15,7 +15,7 @@
       <label>cheese</label>
       <parent>AnimalProductRaw</parent>
       <resourceReadoutRoot>true</resourceReadoutRoot>
-      <iconPath>Things/Items/Cheese/VCE_Cheese/VCE_Cheese_c</iconPath>
+      <iconPath>Things/Items/VCE_Cheese/VCE_zCheese_c</iconPath>
     </ThingCategoryDef>
 	
 	 <ThingCategoryDef>

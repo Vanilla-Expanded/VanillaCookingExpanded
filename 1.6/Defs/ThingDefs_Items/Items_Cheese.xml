@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MealBase">
+		<defName>VCE_Cheese</defName>
+		<label>cheese</label>
+		<description>Cheese is a dairy product, derived from milk and produced in a wide range of flavors, textures and forms by coagulation of the milk protein casein. Cheese is valued for its portability, long life, and high content of fat, protein, calcium, and phosphorus. It is more compact and has a longer shelf life than milk.\n\n&lt;color=#E5E54C&gt;Gameplay mechanics:&lt;/color&gt; Mood impact from consuming cheese will depend on quality, from -7 to +15.</description>
+		<graphicData>
+			<texPath>Things/Items/VCE_Cheese</texPath>
+			<graphicClass>VEF.Graphics.Graphic_StackCountByIngredient</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>VCE_Cheese</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>VCE_AteCheese</ingestedThought>
+			</li>
+			<li Class="VEF.Things.CompProperties_LabelByIngredients">
+				<overrides>
+					
+					<li>
+						<key>InsectJelly</key>
+						<value>Insect</value>
+					</li>
+				</overrides>
+				<exclusions><li>Milk</li></exclusions>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

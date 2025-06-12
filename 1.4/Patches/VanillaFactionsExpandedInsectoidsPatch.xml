@@ -51,7 +51,7 @@
 							<label>insect cheese</label>
 							<description>A strong smelling cheese reminiscent of Roquefort. Insect cheese is white, tangy, crumbly and slightly moist.</description>
 							<graphicData>
-								<texPath>Things/Items/Cheese/VCE_InsectCheese</texPath>
+								<texPath>Things/Items/VCE_Cheese/VCE_InsectCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>

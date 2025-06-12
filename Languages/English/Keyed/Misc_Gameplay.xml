@@ -30,6 +30,7 @@
 	<VCE_SoupFinished>A soup has finished cooking in the electric pot</VCE_SoupFinished>
 	<VCE_SoupInProgress>An {0} is cooking. It will be ready in {1}</VCE_SoupInProgress>
 	<VCE_SoupReady>A soup has finished cooking and is waiting for pickup</VCE_SoupReady>
+	<VCE_SoupPotNotWorking>This electric pot is not working at the moment</VCE_SoupPotNotWorking>
 
 	<!-- Cheese making -->
 	
@@ -58,6 +59,9 @@
 	<VCE_CheesePressFilled>Cheese press filled with {0}</VCE_CheesePressFilled>
 	<VCE_CheesePressWorking>Cheese press is working:</VCE_CheesePressWorking>
 	<VCE_ResourcePercentage> (filled at {0} of {1})</VCE_ResourcePercentage>
+	
+	<VCE_CheesePressNotWorking>This cheese press is not working at the moment</VCE_CheesePressNotWorking>
+
 	
 	<!-- Condiment stats (using code from AnimalBehaviours) -->
 	

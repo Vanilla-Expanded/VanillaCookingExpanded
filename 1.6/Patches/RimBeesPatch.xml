@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Bees</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>VCE_CheeseGraphicOffsets_AlphaBees</defName>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>RB_BeeMilk</key>
+									<value>1</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_BeeMilkIntoCheese</defName>
+							<label>Bee Milk into cheese</label>
+							<description>Turns 50 bee milk into 25 cheese.</description>
+							<labelOverride>Turn 50 bee milk into 25 cheese.</labelOverride>
+							<priorityInBillList>5</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>RB_BeeMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+					<value>
+						<li>VCE_BeeMilkIntoCheese</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_Cheese"]/comps/li[@Class="VEF.Things.CompProperties_LabelByIngredients"]/overrides</xpath>
+					<value>
+						<li>
+							<key>RB_BeeMilk</key>
+							<value>Bee</value>
+						</li>
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

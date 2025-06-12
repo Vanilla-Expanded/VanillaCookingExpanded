@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Genetics Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>VCE_CheeseGraphicOffsets_Genetics</defName>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>GR_WeirdMilk</key>
+									<value>17</value>
+								</li>
+								<li>
+									<key>GR_MechaMilk</key>
+									<value>12</value>
+								</li>
+								<li>
+									<key>GR_BearffaloMilk</key>
+									<value>0</value>
+								</li>
+								<li>
+									<key>GR_ThrumffaloMilk</key>
+									<value>16</value>
+								</li>
+								<li>
+									<key>GR_MuffalochickenMilk</key>
+									<value>11</value>
+								</li>
+								<li>
+									<key>GR_ChickenffaloMilk</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>GR_MuffalobearMilk</key>
+									<value>3</value>
+								</li>
+								<li>
+									<key>GR_WolffaloMilk</key>
+									<value>9</value>
+								</li>
+								<li>
+									<key>GR_RatMilk</key>
+									<value>15</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_WeirdMilkIntoCheese</defName>
+							<label>Weird Milk into cheese</label>
+							<description>Turns 62 weird milk into 25 cheese.</description>
+							<labelOverride>Turn 62 weird milk into 25 cheese.</labelOverride>
+							<priorityInBillList>10</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_WeirdMilk</thing>
+									<countNeeded>62</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_MechaMilkIntoCheese</defName>
+							<label>Mecha Milk into cheese</label>
+							<description>Turns 50 mecha milk into 25 cheese.</description>
+							<labelOverride>Turn 50 mecha milk into 25 cheese.</labelOverride>
+							<priorityInBillList>11</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_MechaMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_BearffaloMilkIntoCheese</defName>
+							<label>Bearffalo Milk into cheese</label>
+							<description>Turns 40 bearffalo milk into 25 cheese.</description>
+							<labelOverride>Turn 40 bearffalo milk into 25 cheese.</labelOverride>
+							<priorityInBillList>12</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_BearffaloMilk</thing>
+									<countNeeded>40</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_ThrumffaloMilkIntoCheese</defName>
+							<label>Thrumffalo Milk into cheese</label>
+							<description>Turns 12 thrumffalo milk into 25 cheese.</description>
+							<labelOverride>Turn 12 thrumffalo milk into 25 cheese.</labelOverride>
+							<priorityInBillList>13</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_ThrumffaloMilk</thing>
+									<countNeeded>12</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_MuffalochickenMilkIntoCheese</defName>
+							<label>Muffalochicken Milk into cheese</label>
+							<description>Turns 50 muffalochicken milk into 25 cheese.</description>
+							<labelOverride>Turn 50 muffalochicken milk into 25 cheese.</labelOverride>
+							<priorityInBillList>14</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_MuffalochickenMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_ChickenffaloMilkIntoCheese</defName>
+							<label>Chickenffalo Milk into cheese</label>
+							<description>Turns 100 chickenffalo milk into 25 cheese.</description>
+							<labelOverride>Turn 100 chickenffalo milk into 25 cheese.</labelOverride>
+							<priorityInBillList>15</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_ChickenffaloMilk</thing>
+									<countNeeded>100</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_MuffalobearMilkIntoCheese</defName>
+							<label>Muffalobear Milk into cheese</label>
+							<description>Turns 62 muffalobear milk into 25 cheese.</description>
+							<labelOverride>Turn 62 muffalobear milk into 25 cheese.</labelOverride>
+							<priorityInBillList>16</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>GR_MuffalobearMilk</thing>
+									<countNeeded>62</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_WolffaloMilkIntoCheese</defName>
+							<label>Wolffalo Milk into cheese</label>
+							<description>Turns 125 wolffalo milk into 25 cheese.</description>
+							<labelOverride>Turn 125 wolffalo milk into 25 cheese.</labelOverride>
+							<priorityInBillList>17</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_WolffaloMilk</thing>
+									<countNeeded>125</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_RatMilkIntoCheese</defName>
+							<label>Rat Milk into cheese</label>
+							<description>Turns 40 rat milk into 25 cheese.</description>
+							<labelOverride>Turn 40 rat milk into 25 cheese.</labelOverride>
+							<priorityInBillList>18</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_RatMilk</thing>
+									<countNeeded>40</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+					<value>
+						<li>VCE_WeirdMilkIntoCheese</li>
+						<li>VCE_MechaMilkIntoCheese</li>
+						<li>VCE_BearffaloMilkIntoCheese</li>
+						<li>VCE_ThrumffaloMilkIntoCheese</li>
+						<li>VCE_MuffalochickenMilkIntoCheese</li>
+						<li>VCE_ChickenffaloMilkIntoCheese</li>
+						<li>VCE_MuffalobearMilkIntoCheese</li>
+						<li>VCE_WolffaloMilkIntoCheese</li>
+						<li>VCE_RatMilkIntoCheese</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_Cheese"]/comps/li[@Class="VEF.Things.CompProperties_LabelByIngredients"]/overrides</xpath>
+					<value>
+						<li>
+							<key>GR_WeirdMilk</key>
+							<value>Weird</value>
+						</li>
+						<li>
+							<key>GR_MechaMilk</key>
+							<value>Mecha</value>
+						</li>
+						<li>
+							<key>GR_BearffaloMilk</key>
+							<value>Bearffalo</value>
+						</li>
+						<li>
+							<key>GR_ThrumffaloMilk</key>
+							<value>Thrumffalo gouda</value>
+						</li>
+						<li>
+							<key>GR_MuffalochickenMilk</key>
+							<value>Lumpy</value>
+						</li>
+						<li>
+							<key>GR_ChickenffaloMilk</key>
+							<value>Chickenffalo</value>
+						</li>
+						<li>
+							<key>GR_MuffalobearMilk</key>
+							<value>Brown</value>
+						</li>
+						<li>
+							<key>GR_WolffaloMilk</key>
+							<value>Hairy</value>
+						</li>
+						<li>
+							<key>GR_RatMilk</key>
+							<value>Rat</value>
+						</li>
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
