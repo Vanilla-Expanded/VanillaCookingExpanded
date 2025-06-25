@@ -12,6 +12,7 @@
 					<value>
 						<VEF.Graphics.GraphicOffsets>
 							<defName>VCE_CheeseGraphicOffsets_AlphaAnimals</defName>
+							<thingDef>VCE_Cheese</thingDef>
 							<ingredientsAndOffsetList>
 								<li>
 									<key>AA_NightMilk</key>

@@ -2,6 +2,7 @@
 <Defs>
 	<VEF.Graphics.GraphicOffsets>
 		<defName>VCE_CheeseGraphicOffsets</defName>
+		<thingDef>VCE_Cheese</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>Milk</key>

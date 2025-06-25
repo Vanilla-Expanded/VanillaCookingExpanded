@@ -12,6 +12,7 @@
 					<value>
 						<VEF.Graphics.GraphicOffsets>
 							<defName>VCE_CheeseGraphicOffsets_Genetics</defName>
+							<thingDef>VCE_Cheese</thingDef>
 							<ingredientsAndOffsetList>
 								<li>
 									<key>GR_WeirdMilk</key>
