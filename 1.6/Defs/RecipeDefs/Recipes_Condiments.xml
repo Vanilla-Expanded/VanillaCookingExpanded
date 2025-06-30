@@ -2,7 +2,7 @@
 <Defs>
 
 
-	<RecipeDef ParentName="VCE_CookBakeMealBase">
+	<RecipeDef>
 		<defName>VCE_ChopCondiments</defName>
 		<label>mix condiments into kibble</label>
 		<description>Mix a batch of different condiments into a barely edible organic mass that can be fed to animals. Still better than supermarket pet food.</description>

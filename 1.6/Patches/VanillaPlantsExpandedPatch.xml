@@ -10,7 +10,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="RoughPlantBase">
+						<ThingDef ParentName="OrganicProductBase">
 							<defName>VCE_Ketchup</defName>
 							<label>ketchup</label>
 							<description>A thick sauce made from stewing tomatoes, both salty and tangy in tandem with a sweet aftertaste. Perfect for meaty meals or fried foods.</description>
@@ -64,7 +64,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="RoughPlantBase">
+						<ThingDef ParentName="OrganicProductBase">
 							<defName>VCE_HotSauce</defName>
 							<label>hot sauce</label>
 							<description>A potent, spicy sauce made from blending and simmering chilis and other spices. While particularly strong hot sauces hurt at first, they are known to numb pain and work up a warm sweat shortly after consumption.</description>

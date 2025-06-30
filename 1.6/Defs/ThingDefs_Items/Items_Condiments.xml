@@ -2,7 +2,7 @@
 <Defs>  
 
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_AgaveNectar</defName>
 		<label>agave nectar</label>
 		<description>A thin and semi-sweet nectar, known for its healing and anti-inflammatory properties. Although healthier than sugar, its high fructose content may be harmful if taken constantly.</description>
@@ -54,7 +54,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_RawSugar</defName>
 		<label>sugar</label>
 		<description>Simple crystalline cane sugar, adds a much desired sweetness. Sugar is easily converted into energy by the body, which may result in a nice burst of energy.</description>
@@ -105,7 +105,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_RawSpices</defName>
 		<label>spices</label>
 		<description>A variety of aromatic and pungent spices, adds several sharp notes on the tongue and puts a bit of a pep in your step.</description>
@@ -156,7 +156,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_Salt</defName>
 		<label>salt</label>
 		<description>Rock salt, like common salt, enhances the flavor profile of other ingredients it is cooked with.</description>
@@ -206,7 +206,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_Mayo</defName>
 		<label>mayo</label>
 		<description>A thick emulsion of egg, oil, and other herbs. Mayonnaise, while terrible for you, adds a pleasing tang and is very calorically dense.</description>
@@ -259,7 +259,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_InsectJellyPreserves</defName>
 		<label>insect jelly preserves</label>
 		<description>Insect jelly cut with sweetener then sealed as a preserve. Very rich and sweet, while being surprisingly healthy.</description>
@@ -307,7 +307,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_SmokeleafButter</defName>
 		<label>smokeleaf butter</label>
 		<description>A thickened, fatty substance made by churning milk into very thick cream, combining with smokeleaf oil and allowing it to set. Very unhealthy and hits quite a bit harder than a joint.</description>
@@ -360,7 +360,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_ChocolateSyrup</defName>
 		<label>chocolate syrup</label>
 		<description>A mixture of cocoa, water and sugar, forming a bitter-sweet pourable syrup, perfect for coating desserts. While still not good for you, chocolate syrup is not quite as bad as straight sugar.</description>
@@ -445,7 +445,7 @@
 			
 		</thingSetMakerTags>
 		<ingestible>
-			<foodType>Plant</foodType>
+			
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedDigestibleResurrectorNanites</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
