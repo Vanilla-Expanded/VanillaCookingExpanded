@@ -36,6 +36,7 @@
 								<preferability>NeverForNutrition</preferability>
 								<specialThoughtAsIngredient>VCE_ConsumedKetchup</specialThoughtAsIngredient>
 								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+								<foodType>Processed</foodType>
 							</ingestible>
 							<ingredient>
 								<mergeCompatibilityTags>
@@ -46,15 +47,12 @@
 								<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
 									<statToAdd>
 										<li>VCE_CondimentEffects</li>
-									
 									</statToAdd>
 									<statValues>
 										<li>VCE_CondimentEffectsTitle</li>
-										
 									</statValues>
 									<statDescriptions>
 										<li>VCE_CondimentEffectsKetchup</li>
-									
 									</statDescriptions>
 								</li>
 							</modExtensions>
@@ -90,6 +88,7 @@
 								<preferability>NeverForNutrition</preferability>
 								<specialThoughtAsIngredient>VCE_ConsumedHotSauce</specialThoughtAsIngredient>
 								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+								<foodType>Processed</foodType>
 							</ingestible>
 							<ingredient>
 								<mergeCompatibilityTags>
@@ -100,15 +99,12 @@
 								<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
 									<statToAdd>
 										<li>VCE_CondimentEffects</li>
-								
 									</statToAdd>
 									<statValues>
 										<li>VCE_CondimentEffectsTitle</li>
-										
 									</statValues>
 									<statDescriptions>
 										<li>VCE_CondimentEffectsSauce</li>
-										
 									</statDescriptions>
 								</li>
 							</modExtensions>
@@ -205,7 +201,6 @@
 									<baseMoodEffect>2</baseMoodEffect>
 								</li>
 							</stages>
-							
 						</ThoughtDef>
 					</value>
 				</li>
