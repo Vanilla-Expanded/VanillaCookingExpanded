@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>  
-
-
+<Defs>
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_AgaveNectar</defName>
 		<label>agave nectar</label>
@@ -28,32 +26,27 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedAgave</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-									
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsAgave</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_RawSugar</defName>
 		<label>sugar</label>
@@ -79,32 +72,27 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedSugar</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-				
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSugar</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_RawSpices</defName>
 		<label>spices</label>
@@ -130,39 +118,33 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedSpices</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-							
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSpices</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_Salt</defName>
 		<label>salt</label>
 		<description>Rock salt, like common salt, enhances the flavor profile of other ingredients it is cooked with.</description>
 		<graphicData>
 			<texPath>Things/Items/Condiments/VCE_Salt</texPath>
-
 		</graphicData>
 		<statBases>
 			<MarketValue>1.76</MarketValue>
@@ -179,33 +161,27 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedSalt</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
-
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSalt</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_Mayo</defName>
 		<label>mayo</label>
@@ -232,33 +208,27 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedMayo</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
-
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-					
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsMayo</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_InsectJellyPreserves</defName>
 		<label>insect jelly preserves</label>
@@ -272,7 +242,6 @@
 			<Nutrition>0.05</Nutrition>
 			<Flammability>1.3</Flammability>
 		</statBases>
-
 		<thingCategories>
 			<li>VCE_Condiments</li>
 		</thingCategories>
@@ -280,33 +249,27 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedInsectJelly</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
-
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsJelly</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_SmokeleafButter</defName>
 		<label>smokeleaf butter</label>
@@ -333,33 +296,27 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_SmokeleafButterHigh</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
-
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-							
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsButter</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>VCE_ChocolateSyrup</defName>
 		<label>chocolate syrup</label>
@@ -386,33 +343,27 @@
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedChocolateSyrup</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
-
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-								
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsSyrup</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="VCE_CondimentArtifactBase">
 		<defName>VCE_DigestibleResurrectorNanites</defName>
 		<label>digestible resurrector nanites</label>
@@ -427,13 +378,12 @@
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<Mass>3</Mass>
-			<Beauty>-2</Beauty>			
+			<Beauty>-2</Beauty>
 			<Nutrition>0</Nutrition>
 			<Flammability>0.4</Flammability>
 			<MarketValue>1500</MarketValue>
 			<MaxHitPoints>80</MaxHitPoints>
 		</statBases>
-		
 		<thingCategories Inherit="False">
 			<li>VCE_Condiments</li>
 		</thingCategories>
@@ -442,61 +392,46 @@
 		</tradeTags>
 		<thingSetMakerTags Inherit="False">
 			<li>RewardSpecial</li>
-			
 		</thingSetMakerTags>
 		<ingestible>
-			
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedDigestibleResurrectorNanites</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
-
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
-		  <mergeCompatibilityTags>
-			<li>Condiments</li>
-		  </mergeCompatibilityTags>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>VCE_CondimentEffectsTitle</li>
-							
 				</statValues>
 				<statDescriptions>
 					<li>VCE_CondimentEffectsNanites</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
-	 <ThingDef ParentName="ResourceBase" Name="VCE_CondimentArtifactBase" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <techLevel>Archotech</techLevel>
-    <thingCategories>
-      <li>Artifacts</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Artifact</li>
-    </tradeTags>
-    <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
-    <statBases>
-      <Mass>0.5</Mass>
-    </statBases>
-   
-  </ThingDef>
-
-
-
-
-
-
-
-
+	<ThingDef ParentName="ResourceBase" Name="VCE_CondimentArtifactBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<techLevel>Archotech</techLevel>
+		<thingCategories>
+			<li>Artifacts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>0.5</Mass>
+		</statBases>
+	</ThingDef>
 </Defs>
