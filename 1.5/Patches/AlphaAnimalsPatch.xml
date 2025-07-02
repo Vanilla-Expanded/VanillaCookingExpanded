@@ -54,7 +54,7 @@
 							<label>night cheese</label>
 							<description>The pitch black rind of this soft cheese gives it a striking contrast with its pale paste. Very nutritive.</description>
 							<graphicData>
-								<texPath>Things/Items/VCE_Cheese/VCE_NightCheese</texPath>
+								<texPath>Things/Items/Cheese/VCE_NightCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -147,7 +147,7 @@
 							<label>blue cheese</label>
 							<description>Blue cheese is cheese made with cultures of the mold Penicillium, giving it blue spots or veins. This carries a "distinct" smell.</description>
 							<graphicData>
-								<texPath>Things/Items/VCE_Cheese/VCE_BlueCheese</texPath>
+								<texPath>Things/Items/Cheese/VCE_BlueCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
@@ -225,7 +225,7 @@
 							<label>gow cheese</label>
 							<description>Gow cheese is greatly appreciated for its smooth, melting texture, and its very soft taste.</description>
 							<graphicData>
-								<texPath>Things/Items/VCE_Cheese/VCE_GowCheese</texPath>
+								<texPath>Things/Items/Cheese/VCE_GowCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>

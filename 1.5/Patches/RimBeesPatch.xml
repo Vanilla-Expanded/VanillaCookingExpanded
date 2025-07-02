@@ -51,7 +51,7 @@
 							<label>bee cheese</label>
 							<description>A delicious cheese extracted from milk created by lactic bees. Yeah, best not to think about it.</description>
 							<graphicData>
-								<texPath>Things/Items/VCE_Cheese/VCE_BeeCheese</texPath>
+								<texPath>Things/Items/Cheese/VCE_BeeCheese</texPath>
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<tradeability>Sellable</tradeability>
