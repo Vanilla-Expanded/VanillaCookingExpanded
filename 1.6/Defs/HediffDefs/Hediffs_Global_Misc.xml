@@ -54,7 +54,7 @@
 		<defName>VCE_ConsumedSpices</defName>
 		<label>consumed spices (from meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>Consumed a variety of aromatic and pungent spices. It increases manipulation stat by 5% for 12 hours.</description>
+		<description>Consumed a variety of aromatic and pungent spices, increases manipulation stat by 5% for 12 hours.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
@@ -109,7 +109,7 @@
 		<defName>VCE_WellFedSimple</defName>
 		<label>well fed (from grilled meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>I have eaten a delicious and filling grilled meat. It lowers hunger rate by 35% for 12 hours.</description>
+		<description>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours..</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
@@ -133,7 +133,7 @@
 		<defName>VCE_WellFedFine</defName>
 		<label>well fed (from grilled meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>I have eaten a delicious and filling grilled meat. It lowers hunger rate by 35% for 12 hours.</description>
+		<description>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
@@ -157,7 +157,7 @@
 		<defName>VCE_WellFedLavish</defName>
 		<label>well fed (from grilled meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>I have eaten a delicious and filling grilled meat. It lowers hunger rate by 35% for 12 hours.</description>
+		<description>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
@@ -181,7 +181,7 @@
 		<defName>VCE_WellFedGourmet</defName>
 		<label>well fed (from grilled meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>I have eaten a delicious and filling grilled meat. It lowers hunger rate by 35% for 12 hours.</description>
+		<description>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>VCE_MealGourmet</defName>
 		<label>gourmet meal</label>
-		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity meal.</description>
+		<description>A culinary work of art, characterized by refined, even elaborate preparation and presentation.</description>
 		<thingClass>VEF.Cooking.GourmetMeal</thingClass>
 		<graphicData>
 			<texPath>Things/Meals/VCE_Gourmet</texPath>
