@@ -20,7 +20,9 @@
 			<disallowedThingDefs>
 				<li>Meat_Human</li>
 				<li>Meat_Megaspider</li>
-				
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_ToxicMeat</li>
+				<li MayRequire="VanillaExpanded.VCookESushi">VCE_HumanSurimi</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
@@ -45,7 +47,9 @@
 			<disallowedThingDefs>
 				<li>Meat_Human</li>
 				<li>Meat_Megaspider</li>
-				
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_ToxicMeat</li>
+				<li MayRequire="VanillaExpanded.VCookESushi">VCE_HumanSurimi</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>

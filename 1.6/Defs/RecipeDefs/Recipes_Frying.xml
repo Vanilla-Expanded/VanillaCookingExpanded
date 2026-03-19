@@ -52,6 +52,9 @@
 				<li>Meat_Megaspider</li>
 				<li>VCE_DeepFriedBigMeat</li>
 				<li>VCE_DeepFriedFish</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_ToxicMeat</li>
+				<li MayRequire="VanillaExpanded.VCookESushi">VCE_HumanSurimi</li>
 			</disallowedThingDefs>
 			<disallowedCategories>	
 
