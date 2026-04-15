@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>VCE_DeepFryFish</defName>
+		<label>deep fry fish x20</label>
+		<description>Deep fry fish. Deep fried food is very tasty, but not very good for your health.</description>
+		<jobString>Deep frying fish.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>VCE_DeepFrier</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Fish</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Fish</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Fish</li>
+			</categories>
+		</defaultIngredientFilter>
+		<products>
+			<VCE_DeepFriedFish>4</VCE_DeepFriedFish>
+		</products>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>VCE_CanFish</defName>
+		<label>can fish x20</label>
+		<description>Safely store fish in a steel can. Canning food extends its shelf life almost indefinitely.</description>
+		<jobString>Canning fish.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>VCE_CanningMachine</li>
+		</recipeUsers>
+		<ingredientValueGetterClass>VEF.Cooking.IngredientValueGetter_NutritionWithExtraIngredient</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Fish</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Fish</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>VCE_CannedFish</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Fish</li>
+			</categories>
+			<disallowedCategories>							
+								</disallowedCategories>
+		</defaultIngredientFilter>
+		<products>
+			<VCE_CannedFish>20</VCE_CannedFish>
+		</products>
+	</RecipeDef>
+</Defs>
+

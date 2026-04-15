@@ -78,7 +78,7 @@
 		</statBases>
 		<rotatable>false</rotatable>
 		<thingCategories>
-			
+			<li>PlantFoodRaw</li>
 		</thingCategories>
 		<ingestible>
 			<preferability>DesperateOnly</preferability>

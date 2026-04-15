@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>VCE_Ketchup</defName>
+		<label>make ketchup</label>
+		<description>Create ketchup from tomatoes. A thick sauce made from stewing tomatoes, both salty and tangy in tandem with a sweet aftertaste. Perfect for meaty meals or fried foods.</description>
+		<jobString>Making ketchup.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+			<li>VCE_CondimentPrepTable</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VCE_RawTomatoes</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VCE_RawTomatoes</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<VCE_Ketchup>10</VCE_Ketchup>
+		</products>
+		<researchPrerequisite>VCE_CondimentsResearch</researchPrerequisite>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>VCE_HotSauce</defName>
+		<label>make hot sauce</label>
+		<description>Create hot sauce from peppers. A potent, spicy sauce made from blending and simmering chilis and other spices. While particularly strong hot sauces hurt at first, they are known to numb pain and work up a warm sweat shortly after consumption.</description>
+		<jobString>Making hot sauce.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+			<li>VCE_CondimentPrepTable</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VCE_RawPepper</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VCE_RawPepper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<VCE_HotSauce>10</VCE_HotSauce>
+		</products>
+		<researchPrerequisite>VCE_CondimentsResearch</researchPrerequisite>
+	</RecipeDef>
+</Defs>

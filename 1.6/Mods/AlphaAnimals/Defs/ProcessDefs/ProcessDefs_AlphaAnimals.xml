@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_NightMilkIntoCheese</defName>
+		<label>Night Milk into cheese</label>
+		<description>Turns 40 night milk into 25 cheese.</description>
+		<labelOverride>Turn 40 night milk into 25 cheese.</labelOverride>
+		<priorityInBillList>2</priorityInBillList>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<ingredients>
+			<li>
+				<thing>AA_NightMilk</thing>
+				<countNeeded>40</countNeeded>
+			</li>
+		</ingredients>
+		<ticksQuality>
+			<li>600000</li>
+			<li>900000</li>
+			<li>1500000</li>
+			<li>2100000</li>
+			<li>2400000</li>
+			<li>2700000</li>
+			<li>4500000</li>
+		</ticksQuality>
+		<results>
+			<li>
+				<thing>VCE_Cheese</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<stopAtQuality>true</stopAtQuality>
+		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_GowMilkIntoCheese</defName>
+		<label>Gow Milk into cheese</label>
+		<description>Turns 40 gow milk into 25 cheese.</description>
+		<labelOverride>Turn 40 gow milk into 25 cheese.</labelOverride>
+		<priorityInBillList>3</priorityInBillList>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<useIngredients>true</useIngredients>
+		<ingredients>
+			<li>
+				<thing>AA_GowMilk</thing>
+				<countNeeded>40</countNeeded>
+			</li>
+		</ingredients>
+		<ticksQuality>
+			<li>600000</li>
+			<li>900000</li>
+			<li>1500000</li>
+			<li>2100000</li>
+			<li>2400000</li>
+			<li>2700000</li>
+			<li>4500000</li>
+		</ticksQuality>
+		<results>
+			<li>
+				<thing>VCE_Cheese</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<stopAtQuality>true</stopAtQuality>
+		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>VCE_BlueMilkIntoCheese</defName>
+		<label>Blue Milk into cheese</label>
+		<description>Turns 40 blue milk into 25 cheese.</description>
+		<labelOverride>Turn 40 blue milk into 25 cheese.</labelOverride>
+		<priorityInBillList>4</priorityInBillList>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<ingredients>
+			<li>
+				<thing>AA_BlueMilk</thing>
+				<countNeeded>40</countNeeded>
+			</li>
+		</ingredients>
+		<ticksQuality>
+			<li>600000</li>
+			<li>900000</li>
+			<li>1500000</li>
+			<li>2100000</li>
+			<li>2400000</li>
+			<li>2700000</li>
+			<li>4500000</li>
+		</ticksQuality>
+		<results>
+			<li>
+				<thing>VCE_Cheese</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<stopAtQuality>true</stopAtQuality>
+		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+</Defs>
+

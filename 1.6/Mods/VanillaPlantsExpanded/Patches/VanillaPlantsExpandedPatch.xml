@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Adding Fruits to Dessert Recipes -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "VCE_CookDessertMealBase"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "VCE_CookDessertMealBase"]/defaultIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "VCE_CookComplexDessertMealBase"]/fixedIngredientFilter/categories</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "VCE_CookComplexDessertMealBase"]/defaultIngredientFilter/categories</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "VCE_CookGourmetDessertMealBase"]/fixedIngredientFilter/categories</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "VCE_CookGourmetDessertMealBase"]/defaultIngredientFilter/categories</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CookDessertSimple"]/ingredients/li/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CookDessertSimpleBulk"]/ingredients/li/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CookDessertFine"]/ingredients/li[@Name="Fruit"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CookDessertFineBulk"]/ingredients/li[@Name="Fruit"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CookDessertLavish"]/ingredients/li[@Name="Fruit"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CookDessertLavishBulk"]/ingredients/li[@Name="Fruit"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CookDessertGourmet"]/ingredients/li[@Name="Fruit"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CanFruit"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CanFruit"]/defaultIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CanFruit"]/ingredients/li/filter/categories</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CanProduce"]/fixedIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "VCE_CanProduce"]/defaultIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "VCE_CannedFruit"]/thingCategories/li[text() = "PlantFoodRaw"]</xpath>
+		<value>
+			<li>VCE_Fruit</li>
+		</value>
+	</Operation>
+</Patch>
+

@@ -4,7 +4,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThoughtDef[defName = "AteLavishMeal"]/replaceThoughts</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/MemeDef[defName = "AteLavishMeal"]</xpath>
+			<xpath>Defs/MemeDef[defName = "AteLavishMeal"]</xpath>
 			<value>
 				<replaceThoughts>
 					<li>VCE_AteGourmetMeal</li>
@@ -30,7 +30,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThoughtDef[defName = "AteFineMeal"]/replaceThoughts</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/MemeDef[defName = "AteFineMeal"]</xpath>
+			<xpath>Defs/MemeDef[defName = "AteFineMeal"]</xpath>
 			<value>
 				<replaceThoughts>
 					<li>VCE_AteGourmetMeal</li>

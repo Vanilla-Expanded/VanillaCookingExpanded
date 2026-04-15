@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<defName>VCE_ConsumedKetchup</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed ketchup</label>
+				<description>Delicious, sticky goodness.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>VCE_ConsumedHotSauce</hediff>
+		<defName>VCE_ConsumedHotSauce</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>hurts so good</label>
+				<description>I absolutely hate that super strong hot sauce! Please give me more.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

@@ -3,7 +3,7 @@
 
 
 	<Operation Class="PatchOperationAdd"> 
-		<xpath>/Defs/ThingDef[defName="Schematic"]/comps/li[@Class="CompProperties_Book"]/doers/li[@Class="BookOutcomeProperties_GainResearch"]/tabs</xpath>
+		<xpath>Defs/ThingDef[defName="Schematic"]/comps/li[@Class="CompProperties_Book"]/doers/li[@Class="BookOutcomeProperties_GainResearch"]/tabs</xpath>
 		<value>
 			<VCE_Cooking />
 		</value>

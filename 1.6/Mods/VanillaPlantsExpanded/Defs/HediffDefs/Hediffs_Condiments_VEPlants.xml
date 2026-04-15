@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>VCE_ConsumedHotSauce</defName>
+		<label>consumed hot sauce (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Consumed a potent, spicy sauce made from blending and simmering chilis and other spices. While particularly strong hot sauces hurt at first, they are known to numb pain and work up a warm sweat shortly after consumption. Boosts pain resistance by 15% and cold temperature resistance by 10ºC for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(255,95,95)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VEF.Cooking.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>VCE_ConsumedHotSauce</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<painFactor>0.85</painFactor>
+				<statOffsets>
+					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

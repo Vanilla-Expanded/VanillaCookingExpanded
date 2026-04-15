@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>VCE_CheeseGraphicOffsets_AlphaAnimals</defName>
+		<thingDef>VCE_Cheese</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AA_NightMilk</key>
+				<value>13</value>
+			</li>
+			<li>
+				<key>AA_BlueMilk</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>AA_GowMilk</key>
+				<value>7</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>
+

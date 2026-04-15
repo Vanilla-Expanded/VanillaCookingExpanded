@@ -7,7 +7,7 @@
       <operations>
         <!-- Add normal cheese to accepted food -->
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/RoyalTitleDef[defName="Acolyte" or defName="Knight" or defName="Praetor" or defName="Baron" or defName="Count" or @Name="BaseEmpireTitleNPC"]/foodRequirement/allowedDefs</xpath>
+          <xpath>Defs/RoyalTitleDef[defName="Acolyte" or defName="Knight" or defName="Praetor" or defName="Baron" or defName="Count" or @Name="BaseEmpireTitleNPC"]/foodRequirement/allowedDefs</xpath>
           <value>
             <li>VCE_Cheese</li>
           </value>

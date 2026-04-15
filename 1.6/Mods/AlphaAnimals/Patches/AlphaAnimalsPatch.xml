@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>VCE_NightMilkIntoCheese</li>
+			<li>VCE_GowMilkIntoCheese</li>
+			<li>VCE_BlueMilkIntoCheese</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "VCE_Cheese"]/comps/li[@Class="VEF.Things.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>AA_NightMilk</key>
+				<value>Night</value>
+			</li>
+			<li>
+				<key>AA_GowMilk</key>
+				<value>Gow</value>
+			</li>
+			<li>
+				<key>AA_BlueMilk</key>
+				<value>Blue</value>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+

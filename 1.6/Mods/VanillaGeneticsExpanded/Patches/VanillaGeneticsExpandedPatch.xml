@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>VCE_WeirdMilkIntoCheese</li>
+			<li>VCE_MechaMilkIntoCheese</li>
+			<li>VCE_BearffaloMilkIntoCheese</li>
+			<li>VCE_ThrumffaloMilkIntoCheese</li>
+			<li>VCE_MuffalochickenMilkIntoCheese</li>
+			<li>VCE_ChickenffaloMilkIntoCheese</li>
+			<li>VCE_MuffalobearMilkIntoCheese</li>
+			<li>VCE_WolffaloMilkIntoCheese</li>
+			<li>VCE_RatMilkIntoCheese</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "VCE_Cheese"]/comps/li[@Class="VEF.Things.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>GR_WeirdMilk</key>
+				<value>Weird</value>
+			</li>
+			<li>
+				<key>GR_MechaMilk</key>
+				<value>Mecha</value>
+			</li>
+			<li>
+				<key>GR_BearffaloMilk</key>
+				<value>Bearffalo</value>
+			</li>
+			<li>
+				<key>GR_ThrumffaloMilk</key>
+				<value>Thrumffalo gouda</value>
+			</li>
+			<li>
+				<key>GR_MuffalochickenMilk</key>
+				<value>Lumpy</value>
+			</li>
+			<li>
+				<key>GR_ChickenffaloMilk</key>
+				<value>Chickenffalo</value>
+			</li>
+			<li>
+				<key>GR_MuffalobearMilk</key>
+				<value>Brown</value>
+			</li>
+			<li>
+				<key>GR_WolffaloMilk</key>
+				<value>Hairy</value>
+			</li>
+			<li>
+				<key>GR_RatMilk</key>
+				<value>Rat</value>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+

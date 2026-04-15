@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/RecipeDef[defName="VCE_DeepFryMeats"]/defaultIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>Fish</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/RecipeDef[defName="VCE_CanMeats"]/defaultIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>Fish</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/RecipeDef[defName="VCE_CanMeats"]/fixedIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>Fish</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VCE_CannedFish"]/thingCategories/li[text()="MeatRaw"]</xpath>
+		<value>
+			<li>Fish</li>
+		</value>
+	</Operation>
+</Patch>

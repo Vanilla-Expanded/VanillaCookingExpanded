@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/RecipeDef[defName="VCE_DeepFryMeats"]/defaultIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>AB_RawFishCategory</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/RecipeDef[defName="VCE_CanMeats"]/defaultIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>AB_RawFishCategory</li>
+		</value>
+	</Operation>
+</Patch>
+
