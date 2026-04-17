@@ -17,7 +17,7 @@
 		<li IfModActive="sarg.alphabiomes" IfModNotActive="Ludeon.RimWorld.Odyssey">1.6/Mods/AlphaBiomes</li>
 		<li IfModActive="sarg.rimbees">1.6/Mods/AlphaBees</li>
 		<li IfModActive="VanillaExpanded.VCEF" IfModNotActive="Ludeon.RimWorld.Odyssey">1.6/Mods/VanillaFishingExpandedNoOdyssey</li>
-		<li IfModActive="VanillaExpanded.VCEF,Ludeon.RimWorld.Odyssey">1.6/Mods/VanillaFishingExpanded</li>
+		<li IfModActiveAll="VanillaExpanded.VCEF,Ludeon.RimWorld.Odyssey">1.6/Mods/VanillaFishingExpanded</li>
 		<li IfModActive="VanillaExpanded.VGeneticsE">1.6/Mods/VanillaGeneticsExpanded</li>
 	</v1.6>
 </loadFolders>
