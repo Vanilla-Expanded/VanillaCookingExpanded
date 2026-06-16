@@ -3,6 +3,7 @@
 	<AchievementsExpanded.AchievementTabDef>
 		<defName>VCE_Achievements</defName>
 		<label>Vanilla Cuisine</label>
+		<order>100</order>
 	</AchievementsExpanded.AchievementTabDef>
 	<AchievementsExpanded.AchievementDef>
 		<defName>VCE_AchievementFiveStarRestaurant</defName>
